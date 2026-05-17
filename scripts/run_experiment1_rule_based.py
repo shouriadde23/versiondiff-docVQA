@@ -3,13 +3,13 @@ import re
 from pathlib import Path
 
 
-PROJECT_ROOT = Path.home() / "VersionDiff-DocVQA"
+project_root = Path.home() / "VersionDiff-DocVQA"
 
-QA_FILE = PROJECT_ROOT / "data/processed/qa_jsonl/funsd_revision_qa.jsonl"
-RESULTS_FILE = PROJECT_ROOT / "results/experiment1/funsd_rule_based_results.jsonl"
-SUMMARY_FILE = PROJECT_ROOT / "results/experiment1/funsd_rule_based_summary.json"
+qa_file = project_root / "data/processed/qa_jsonl/funsd_revision_qa.jsonl"
+results_file = project_root / "results/experiment1/funsd_rule_based_results.jsonl"
+summary_file = project_root / "results/experiment1/funsd_rule_based_summary.json"
 
-RESULTS_FILE.parent.mkdir(parents=True, exist_ok=True)
+results_file.parent.mkdir(parents=True, exist_ok=True)
 
 
 def normalize_text(text):
@@ -88,7 +88,6 @@ def anls(prediction, ground_truth):
 
     score = 1 - (dist / max_len)
 
-    # Common DocVQA-style thresholding
     if score < 0.5:
         return 0.0
 
@@ -96,27 +95,14 @@ def anls(prediction, ground_truth):
 
 
 def revised_only_baseline(row):
-    """
-    This baseline only knows the revised value.
-    It cannot know the old/original value.
-    """
     return str(row["new_value"])
 
 
 def dual_document_naive_baseline(row):
-    """
-    This baseline sees old and new values, but does not generate
-    the full answer sentence in the target format.
-    """
     return f"{row['old_value']} {row['new_value']}"
 
 
 def explicit_diff_method(row):
-    """
-    This represents the explicit comparison module.
-    For now, it uses the known synthetic metadata.
-    Later, we replace this with OCR/layout-based detected changes.
-    """
     return f"The value changed from {row['old_value']} to {row['new_value']}."
 
 
@@ -165,11 +151,11 @@ def evaluate_method(rows, method_name, method_fn):
 
 
 def main():
-    if not QA_FILE.exists():
-        raise FileNotFoundError(f"Missing QA file: {QA_FILE}")
+    if not qa_file.exists():
+        raise FileNotFoundError(f"Missing QA file: {qa_file}")
 
     rows = []
-    with open(QA_FILE, "r", encoding="utf-8") as f:
+    with open(qa_file, "r", encoding="utf-8") as f:
         for line in f:
             rows.append(json.loads(line))
 
@@ -194,15 +180,15 @@ def main():
         print(f"F1:          {summary['f1']:.4f}", flush=True)
         print(f"ANLS:        {summary['anls']:.4f}", flush=True)
 
-    with open(RESULTS_FILE, "w", encoding="utf-8") as f:
+    with open(results_file, "w", encoding="utf-8") as f:
         for pred in all_predictions:
             f.write(json.dumps(pred) + "\n")
 
-    with open(SUMMARY_FILE, "w", encoding="utf-8") as f:
+    with open(summary_file, "w", encoding="utf-8") as f:
         json.dump(all_summaries, f, indent=2)
 
-    print(f"\nSaved detailed results to: {RESULTS_FILE}", flush=True)
-    print(f"Saved summary to: {SUMMARY_FILE}", flush=True)
+    print(f"\nSaved detailed results to: {results_file}", flush=True)
+    print(f"Saved summary to: {summary_file}", flush=True)
 
 
 if __name__ == "__main__":
