@@ -13,21 +13,21 @@ except ImportError:
         return iterable
 
 
-PROJECT_ROOT = Path.home() / "VersionDiff-DocVQA"
+project_root = Path.home() / "VersionDiff-DocVQA"
 
-SROIE_ROOT = PROJECT_ROOT / "data/raw/SROIE/SROIE2019"
-IMG_DIR = SROIE_ROOT / "train/img"
-BOX_DIR = SROIE_ROOT / "train/box"
-ENT_DIR = SROIE_ROOT / "train/entities"
+sroie_root = project_root / "data/raw/SROIE/SROIE2019"
+img_dir = sroie_root / "train/img"
+box_dir = sroie_root / "train/box"
+ent_dir = sroie_root / "train/entities"
 
-OUT_DIR = PROJECT_ROOT / "data/processed/sroie_multiversion"
-OUT_IMG = OUT_DIR / "images"
-OUT_META = OUT_DIR / "metadata"
-OUT_QA = PROJECT_ROOT / "data/processed/qa_jsonl/sroie_multiversion_qa.jsonl"
+out_dir = project_root / "data/processed/sroie_multiversion"
+out_img = out_dir / "images"
+out_meta = out_dir / "metadata"
+out_qa = project_root / "data/processed/qa_jsonl/sroie_multiversion_qa.jsonl"
 
-OUT_IMG.mkdir(parents=True, exist_ok=True)
-OUT_META.mkdir(parents=True, exist_ok=True)
-OUT_QA.parent.mkdir(parents=True, exist_ok=True)
+out_img.mkdir(parents=True, exist_ok=True)
+out_meta.mkdir(parents=True, exist_ok=True)
+out_qa.parent.mkdir(parents=True, exist_ok=True)
 
 
 def load_json(path):
@@ -37,7 +37,7 @@ def load_json(path):
 
 def find_image_for_doc(doc_id):
     for ext in [".jpg", ".png", ".jpeg"]:
-        p = IMG_DIR / f"{doc_id}{ext}"
+        p = img_dir / f"{doc_id}{ext}"
         if p.exists():
             return p
     return None
@@ -161,24 +161,24 @@ def generate_value_history(field_name, old_value):
     if field_name == "company":
         return [
             old_value,
-            "UPDATED MART",
-            "REVISED SHOP",
-            "FINAL STORE",
+            "Updated Mart",
+            "Revised Shop",
+            "Final Store",
         ]
 
     if field_name == "address":
         return [
             old_value,
-            "123 UPDATED STREET",
-            "456 REVISED ROAD",
-            "789 FINAL AVE",
+            "123 Updated Street",
+            "456 Revised Road",
+            "789 Final Ave",
         ]
 
     return [
         old_value,
-        "VALUE_V1",
-        "VALUE_V2",
-        "VALUE_V3",
+        "Value 1",
+        "Value 2",
+        "Value 3",
     ]
 
 
@@ -252,21 +252,21 @@ def build_multiversion_questions(doc_id, field_name, value_history, version_path
 
 
 def main(max_docs=200):
-    if not IMG_DIR.exists():
-        raise FileNotFoundError(f"Missing SROIE image directory: {IMG_DIR}")
+    if not img_dir.exists():
+        raise FileNotFoundError(f"Missing SROIE image directory: {img_dir}")
 
-    if not BOX_DIR.exists():
-        raise FileNotFoundError(f"Missing SROIE box directory: {BOX_DIR}")
+    if not box_dir.exists():
+        raise FileNotFoundError(f"Missing SROIE box directory: {box_dir}")
 
-    if not ENT_DIR.exists():
-        raise FileNotFoundError(f"Missing SROIE entities directory: {ENT_DIR}")
+    if not ent_dir.exists():
+        raise FileNotFoundError(f"Missing SROIE entities directory: {ent_dir}")
 
     random.seed(42)
 
-    if OUT_QA.exists():
-        OUT_QA.unlink()
+    if out_qa.exists():
+        out_qa.unlink()
 
-    entity_files = sorted(ENT_DIR.glob("*.txt"))
+    entity_files = sorted(ent_dir.glob("*.txt"))
 
     qa_rows = []
     skipped = 0
@@ -275,7 +275,7 @@ def main(max_docs=200):
         doc_id = ent_path.stem
 
         image_path = find_image_for_doc(doc_id)
-        box_path = BOX_DIR / f"{doc_id}.txt"
+        box_path = box_dir / f"{doc_id}.txt"
 
         if image_path is None or not box_path.exists():
             skipped += 1
@@ -311,7 +311,7 @@ def main(max_docs=200):
         version_paths = []
 
         for version_idx, value in enumerate(value_history):
-            out_path = OUT_IMG / f"{doc_id}_v{version_idx}.jpg"
+            out_path = out_img / f"{doc_id}_v{version_idx}.jpg"
 
             if version_idx == 0:
                 shutil.copy(image_path, out_path)
@@ -323,7 +323,7 @@ def main(max_docs=200):
                     out_path=out_path
                 )
 
-            version_paths.append(str(out_path.relative_to(PROJECT_ROOT)))
+            version_paths.append(str(out_path.relative_to(project_root)))
 
         metadata = {
             "dataset": "sroie",
@@ -334,7 +334,7 @@ def main(max_docs=200):
             "box": box,
         }
 
-        meta_path = OUT_META / f"{doc_id}_multiversion.json"
+        meta_path = out_meta / f"{doc_id}_multiversion.json"
         with open(meta_path, "w", encoding="utf-8") as f:
             json.dump(metadata, f, indent=2)
 
@@ -348,7 +348,7 @@ def main(max_docs=200):
 
         qa_rows.extend(doc_qa_rows)
 
-    with open(OUT_QA, "w", encoding="utf-8") as f:
+    with open(out_qa, "w", encoding="utf-8") as f:
         for row in qa_rows:
             f.write(json.dumps(row) + "\n")
 
@@ -359,7 +359,7 @@ def main(max_docs=200):
         field_counts[row["field_name"]] = field_counts.get(row["field_name"], 0) + 1
         question_counts[row["question_type"]] = question_counts.get(row["question_type"], 0) + 1
 
-    print(f"Saved multi-version QA file to: {OUT_QA}", flush=True)
+    print(f"Saved multi-version QA file to: {out_qa}", flush=True)
     print(f"Created {len(qa_rows)} multi-version QA examples.", flush=True)
     print(f"Skipped {skipped} documents.", flush=True)
     print("QA count by field:", field_counts, flush=True)
