@@ -13,22 +13,22 @@ except ImportError:
         return iterable
 
 
-PROJECT_ROOT = Path.home() / "VersionDiff-DocVQA"
+project_root = Path.home() / "VersionDiff-DocVQA"
 
-SROIE_ROOT = PROJECT_ROOT / "data/raw/SROIE/SROIE2019"
-IMG_DIR = SROIE_ROOT / "train/img"
-BOX_DIR = SROIE_ROOT / "train/box"
-ENT_DIR = SROIE_ROOT / "train/entities"
+sroie_root = project_root / "data/raw/SROIE/SROIE2019"
+img_dit = sroie_root / "train/img"
+box_dit = sroie_root / "train/box"
+ent_dir = sroie_root / "train/entities"
 
-OUT_ORIG = PROJECT_ROOT / "data/processed/sroie/original"
-OUT_REV = PROJECT_ROOT / "data/processed/sroie/revised"
-OUT_META = PROJECT_ROOT / "data/processed/sroie/metadata"
-OUT_QA = PROJECT_ROOT / "data/processed/qa_jsonl/sroie_revision_qa.jsonl"
+out_orig = project_root / "data/processed/sroie/original"
+out_rev = project_root / "data/processed/sroie/revised"
+out_meta = project_root / "data/processed/sroie/metadata"
+out_qa = project_root / "data/processed/qa_jsonl/sroie_revision_qa.jsonl"
 
-OUT_ORIG.mkdir(parents=True, exist_ok=True)
-OUT_REV.mkdir(parents=True, exist_ok=True)
-OUT_META.mkdir(parents=True, exist_ok=True)
-OUT_QA.parent.mkdir(parents=True, exist_ok=True)
+out_orig.mkdir(parents=True, exist_ok=True)
+out_rev.mkdir(parents=True, exist_ok=True)
+out_meta.mkdir(parents=True, exist_ok=True)
+out_qa.parent.mkdir(parents=True, exist_ok=True)
 
 
 def load_json(path):
@@ -38,17 +38,13 @@ def load_json(path):
 
 def find_image_for_doc(doc_id):
     for ext in [".jpg", ".png", ".jpeg"]:
-        p = IMG_DIR / f"{doc_id}{ext}"
+        p = img_dit / f"{doc_id}{ext}"
         if p.exists():
             return p
     return None
 
 
 def parse_box_file(path):
-    """
-    SROIE box files usually contain lines like:
-    x1,y1,x2,y2,x3,y3,x4,y4,text
-    """
     rows = []
 
     if not path.exists():
@@ -90,10 +86,6 @@ def normalize(s):
 
 
 def find_box_for_value(box_rows, value):
-    """
-    Try to find the OCR box that contains the entity value.
-    If exact matching fails, try substring matching.
-    """
     if not value:
         return None
 
@@ -126,12 +118,12 @@ def make_new_value(field_name, old_value):
         return random.choice(["04/27/2026", "2026-04-27", "27/04/2026"])
 
     if field_name == "company":
-        return random.choice(["NEW STORE", "UPDATED MART", "REVISED SHOP"])
+        return random.choice(["Nev Store", "Updated MART", "Revised Shop"])
 
     if field_name == "address":
-        return random.choice(["123 UPDATED STREET", "456 NEW ROAD", "789 REVISED AVE"])
+        return random.choice(["123 Updated Street", "456 New Road", "789 Revised Ave"])
 
-    return random.choice(["UPDATED", "REVISED", "NEWVALUE"])
+    return random.choice(["updated", "revised", "newvalue"])
 
 
 def draw_white_box(draw, box):
@@ -186,8 +178,8 @@ def build_questions(doc_id, original_out, revised_out, field_name, change_type, 
     base = {
         "dataset": "sroie",
         "doc_id": doc_id,
-        "original_image": str(original_out.relative_to(PROJECT_ROOT)),
-        "revised_image": str(revised_out.relative_to(PROJECT_ROOT)),
+        "original_image": str(original_out.relative_to(project_root)),
+        "revised_image": str(revised_out.relative_to(project_root)),
         "field_name": field_name,
         "change_type": change_type,
         "old_value": old_value,
@@ -263,29 +255,29 @@ def build_questions(doc_id, original_out, revised_out, field_name, change_type, 
 
 
 def main(max_docs=200):
-    if not IMG_DIR.exists():
-        raise FileNotFoundError(f"Missing SROIE image directory: {IMG_DIR}")
+    if not img_dit.exists():
+        raise FileNotFoundError(f"Missing SROIE image directory: {img_dit}")
 
-    if not BOX_DIR.exists():
-        raise FileNotFoundError(f"Missing SROIE box directory: {BOX_DIR}")
+    if not box_dit.exists():
+        raise FileNotFoundError(f"Missing SROIE box directory: {box_dit}")
 
-    if not ENT_DIR.exists():
-        raise FileNotFoundError(f"Missing SROIE entities directory: {ENT_DIR}")
+    if not ent_dir.exists():
+        raise FileNotFoundError(f"Missing SROIE entities directory: {ent_dir}")
 
-    entity_files = sorted(ENT_DIR.glob("*.txt"))
+    entity_files = sorted(ent_dir.glob("*.txt"))
 
     random.seed(42)
     qa_rows = []
     skipped = 0
 
-    if OUT_QA.exists():
-        OUT_QA.unlink()
+    if out_qa.exists():
+        out_qa.unlink()
 
     for ent_path in tqdm(entity_files[:max_docs], desc="Creating SROIE revision pairs"):
         doc_id = ent_path.stem
 
         image_path = find_image_for_doc(doc_id)
-        box_path = BOX_DIR / f"{doc_id}.txt"
+        box_path = box_dit / f"{doc_id}.txt"
 
         if image_path is None or not box_path.exists():
             skipped += 1
@@ -327,11 +319,11 @@ def main(max_docs=200):
         elif change_type == "insertion":
             new_value = make_new_value(field_name, old_value)
         else:
-            new_value = "UPDATED"
+            new_value = "updated"
 
-        original_out = OUT_ORIG / f"{doc_id}.jpg"
-        revised_out = OUT_REV / f"{doc_id}_v1.jpg"
-        metadata_out = OUT_META / f"{doc_id}_v1.json"
+        original_out = out_orig / f"{doc_id}.jpg"
+        revised_out = out_rev / f"{doc_id}_v1.jpg"
+        metadata_out = out_meta / f"{doc_id}_v1.json"
 
         shutil.copy(image_path, original_out)
 
@@ -362,8 +354,8 @@ def main(max_docs=200):
         metadata = {
             "dataset": "sroie",
             "doc_id": doc_id,
-            "original_image": str(original_out.relative_to(PROJECT_ROOT)),
-            "revised_image": str(revised_out.relative_to(PROJECT_ROOT)),
+            "original_image": str(original_out.relative_to(project_root)),
+            "revised_image": str(revised_out.relative_to(project_root)),
             "field_name": field_name,
             "change_type": change_type,
             "old_value": old_value,
@@ -384,7 +376,7 @@ def main(max_docs=200):
 
         qa_rows.extend(doc_qa_rows)
 
-    with open(OUT_QA, "w", encoding="utf-8") as f:
+    with open(out_qa, "w", encoding="utf-8") as f:
         for row in qa_rows:
             f.write(json.dumps(row) + "\n")
 
@@ -396,7 +388,7 @@ def main(max_docs=200):
     for row in qa_rows:
         field_counts[row["field_name"]] = field_counts.get(row["field_name"], 0) + 1
 
-    print(f"Saved QA file to: {OUT_QA}", flush=True)
+    print(f"Saved QA file to: {out_qa}", flush=True)
     print(f"Created {len(qa_rows)} SROIE revision QA examples.", flush=True)
     print(f"Skipped {skipped} documents.", flush=True)
     print("QA count by change type:", counts, flush=True)
