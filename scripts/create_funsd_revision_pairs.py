@@ -111,7 +111,6 @@ def edit_image(image_path, box, change_type, old_value, new_value, output_path):
         draw_white_box(draw, box)
 
     elif change_type == "insertion":
-        # For insertion, keep the original text and insert nearby.
         x0, y0, x1, y1 = box
         insert_x = x1 + 8
         insert_y = y0
@@ -218,7 +217,6 @@ def main(max_docs=100):
     random.seed(42)
     qa_rows = []
 
-    # Clear old generated QA file only. Images/metadata may be overwritten.
     if out_qa.exists():
         out_qa.unlink()
 
