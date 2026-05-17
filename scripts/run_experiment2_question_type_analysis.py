@@ -3,18 +3,18 @@ from collections import defaultdict
 from pathlib import Path
 
 
-PROJECT_ROOT = Path.home() / "VersionDiff-DocVQA"
+project_root = Path.home() / "VersionDiff-DocVQA"
 
-INPUT_FILES = {
-    "funsd": PROJECT_ROOT / "results/experiment1/funsd_annotation_diff_results.jsonl",
-    "sroie": PROJECT_ROOT / "results/experiment1/sroie_annotation_diff_results.jsonl",
+input_files = {
+    "funsd": project_root / "results/experiment1/funsd_annotation_diff_results.jsonl",
+    "sroie": project_root / "results/experiment1/sroie_annotation_diff_results.jsonl",
 }
 
-OUT_SUMMARY = PROJECT_ROOT / "results/experiment2/question_type_summary.json"
-OUT_TABLE = PROJECT_ROOT / "results/experiment2/question_type_report_table.txt"
-OUT_COMBINED = PROJECT_ROOT / "results/experiment2/question_type_combined_results.jsonl"
+out_summary = project_root / "results/experiment2/question_type_summary.json"
+out_table = project_root / "results/experiment2/question_type_report_table.txt"
+out_combined = project_root / "results/experiment2/question_type_combined_results.jsonl"
 
-OUT_SUMMARY.parent.mkdir(parents=True, exist_ok=True)
+out_summary.parent.mkdir(parents=True, exist_ok=True)
 
 
 def classify_question_type(question):
@@ -53,7 +53,7 @@ def classify_question_type(question):
 def load_results():
     rows = []
 
-    for dataset_name, path in INPUT_FILES.items():
+    for dataset_name, path in input_files.items():
         if not path.exists():
             print(f"Missing result file: {path}", flush=True)
             continue
@@ -132,10 +132,10 @@ def main():
         "combined_by_method_question_type": combined,
     }
 
-    with open(OUT_SUMMARY, "w", encoding="utf-8") as f:
+    with open(out_summary, "w", encoding="utf-8") as f:
         json.dump(output, f, indent=2)
 
-    with open(OUT_COMBINED, "w", encoding="utf-8") as f:
+    with open(out_combined, "w", encoding="utf-8") as f:
         for row in rows:
             f.write(json.dumps(row) + "\n")
 
@@ -160,13 +160,13 @@ def main():
 
     table_text = "\n".join(lines)
 
-    with open(OUT_TABLE, "w", encoding="utf-8") as f:
+    with open(out_table, "w", encoding="utf-8") as f:
         f.write(table_text)
 
     print(table_text, flush=True)
-    print(f"\nSaved Experiment 2 summary to: {OUT_SUMMARY}", flush=True)
-    print(f"Saved report table to: {OUT_TABLE}", flush=True)
-    print(f"Saved combined prediction rows to: {OUT_COMBINED}", flush=True)
+    print(f"\nSaved Experiment 2 summary to: {out_summary}", flush=True)
+    print(f"Saved report table to: {out_table}", flush=True)
+    print(f"Saved combined prediction rows to: {out_combined}", flush=True)
 
 
 if __name__ == "__main__":
