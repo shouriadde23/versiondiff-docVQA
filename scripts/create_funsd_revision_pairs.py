@@ -13,21 +13,21 @@ except ImportError:
         return iterable
 
 
-PROJECT_ROOT = Path.home() / "VersionDiff-DocVQA"
+project_root = Path.home() / "VersionDiff-DocVQA"
 
-FUNSD_ROOT = PROJECT_ROOT / "data/raw/FUNSD/dataset"
-IMAGE_DIR = FUNSD_ROOT / "training_data/images"
-ANN_DIR = FUNSD_ROOT / "training_data/annotations"
+funsd_root = project_root / "data/raw/FUNSD/dataset"
+image_dir = funsd_root / "training_data/images"
+ann_dir = funsd_root / "training_data/annotations"
 
-OUT_ORIG = PROJECT_ROOT / "data/processed/funsd/original"
-OUT_REV = PROJECT_ROOT / "data/processed/funsd/revised"
-OUT_META = PROJECT_ROOT / "data/processed/funsd/metadata"
-OUT_QA = PROJECT_ROOT / "data/processed/qa_jsonl/funsd_revision_qa.jsonl"
+out_orig = project_root / "data/processed/funsd/original"
+out_rev = project_root / "data/processed/funsd/revised"
+out_meta = project_root / "data/processed/funsd/metadata"
+out_qa = project_root / "data/processed/qa_jsonl/funsd_revision_qa.jsonl"
 
-OUT_ORIG.mkdir(parents=True, exist_ok=True)
-OUT_REV.mkdir(parents=True, exist_ok=True)
-OUT_META.mkdir(parents=True, exist_ok=True)
-OUT_QA.parent.mkdir(parents=True, exist_ok=True)
+out_orig.mkdir(parents=True, exist_ok=True)
+out_rev.mkdir(parents=True, exist_ok=True)
+out_meta.mkdir(parents=True, exist_ok=True)
+out_qa.parent.mkdir(parents=True, exist_ok=True)
 
 
 def load_annotation(annotation_path):
@@ -126,8 +126,8 @@ def edit_image(image_path, box, change_type, old_value, new_value, output_path):
 def build_questions(doc_id, original_out, revised_out, change_type, field_name, old_value, new_value, box):
     base = {
         "doc_id": doc_id,
-        "original_image": str(original_out.relative_to(PROJECT_ROOT)),
-        "revised_image": str(revised_out.relative_to(PROJECT_ROOT)),
+        "original_image": str(original_out.relative_to(project_root)),
+        "revised_image": str(revised_out.relative_to(project_root)),
         "change_type": change_type,
         "field_name": field_name,
         "old_value": old_value,
@@ -207,24 +207,24 @@ def build_questions(doc_id, original_out, revised_out, change_type, field_name, 
 
 
 def main(max_docs=100):
-    if not IMAGE_DIR.exists():
-        raise FileNotFoundError(f"Missing image directory: {IMAGE_DIR}")
+    if not image_dir.exists():
+        raise FileNotFoundError(f"Missing image directory: {image_dir}")
 
-    if not ANN_DIR.exists():
-        raise FileNotFoundError(f"Missing annotation directory: {ANN_DIR}")
+    if not ann_dir.exists():
+        raise FileNotFoundError(f"Missing annotation directory: {ann_dir}")
 
-    image_files = sorted(list(IMAGE_DIR.glob("*.png")) + list(IMAGE_DIR.glob("*.jpg")))
+    image_files = sorted(list(image_dir.glob("*.png")) + list(image_dir.glob("*.jpg")))
 
     random.seed(42)
     qa_rows = []
 
     # Clear old generated QA file only. Images/metadata may be overwritten.
-    if OUT_QA.exists():
-        OUT_QA.unlink()
+    if out_qa.exists():
+        out_qa.unlink()
 
     for image_path in tqdm(image_files[:max_docs], desc="Creating FUNSD revision pairs"):
         doc_id = image_path.stem
-        ann_path = ANN_DIR / f"{doc_id}.json"
+        ann_path = ann_dir / f"{doc_id}.json"
 
         if not ann_path.exists():
             continue
@@ -252,9 +252,9 @@ def main(max_docs=100):
         else:
             new_value = "UPDATED"
 
-        original_out = OUT_ORIG / f"{doc_id}.png"
-        revised_out = OUT_REV / f"{doc_id}_v1.png"
-        metadata_out = OUT_META / f"{doc_id}_v1.json"
+        original_out = out_orig / f"{doc_id}.png"
+        revised_out = out_rev / f"{doc_id}_v1.png"
+        metadata_out = out_meta / f"{doc_id}_v1.json"
 
         shutil.copy(image_path, original_out)
 
@@ -280,8 +280,8 @@ def main(max_docs=100):
 
         metadata = {
             "doc_id": doc_id,
-            "original_image": str(original_out.relative_to(PROJECT_ROOT)),
-            "revised_image": str(revised_out.relative_to(PROJECT_ROOT)),
+            "original_image": str(original_out.relative_to(project_root)),
+            "revised_image": str(revised_out.relative_to(project_root)),
             "change_type": change_type,
             "field_name": field_name,
             "old_value": old_value,
@@ -302,11 +302,11 @@ def main(max_docs=100):
 
         qa_rows.extend(doc_qa_rows)
 
-    with open(OUT_QA, "w", encoding="utf-8") as f:
+    with open(out_qa, "w", encoding="utf-8") as f:
         for row in qa_rows:
             f.write(json.dumps(row) + "\n")
 
-    print(f"Saved QA file to: {OUT_QA}", flush=True)
+    print(f"Saved QA file to: {out_qa}", flush=True)
     print(f"Created {len(qa_rows)} revision QA examples.", flush=True)
 
     counts = {}
