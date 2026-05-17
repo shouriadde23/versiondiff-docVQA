@@ -4,15 +4,15 @@ from collections import defaultdict
 from pathlib import Path
 
 
-PROJECT_ROOT = Path.home() / "VersionDiff-DocVQA"
+project_root = Path.home() / "VersionDiff-DocVQA"
 
-QA_FILE = PROJECT_ROOT / "data/processed/qa_jsonl/sroie_multiversion_qa.jsonl"
+qa_file = project_root / "data/processed/qa_jsonl/sroie_multiversion_qa.jsonl"
 
-OUT_RESULTS = PROJECT_ROOT / "results/experiment3/sroie_multiversion_results.jsonl"
-OUT_SUMMARY = PROJECT_ROOT / "results/experiment3/sroie_multiversion_summary.json"
-OUT_TABLE = PROJECT_ROOT / "results/experiment3/sroie_multiversion_report_table.txt"
+out_results = project_root / "results/experiment3/sroie_multiversion_results.jsonl"
+out_summary = project_root / "results/experiment3/sroie_multiversion_summary.json"
+out_table = project_root / "results/experiment3/sroie_multiversion_report_table.txt"
 
-OUT_RESULTS.parent.mkdir(parents=True, exist_ok=True)
+out_results.parent.mkdir(parents=True, exist_ok=True)
 
 
 def normalize_text(text):
@@ -94,19 +94,6 @@ def anls(prediction, ground_truth):
 
 
 def get_visible_history(row, setting):
-    """
-    Gold history is v0, v1, v2, v3.
-
-    2-version setting:
-        model sees v0 and v3 only.
-
-    3-version setting:
-        model sees v0, v1, and v3.
-        It knows the first intermediate value but misses v2.
-
-    4-version setting:
-        model sees v0, v1, v2, and v3.
-    """
     history = row["value_history"]
 
     if setting == "two_versions":
@@ -250,54 +237,13 @@ def summarize_by_question_type(rows):
     return summary
 
 
-def make_report_table(overall, by_question):
-    lines = []
-
-    lines.append("Experiment 3: Multi-Version SROIE Reasoning")
-    lines.append("=" * 100)
-    lines.append("")
-    lines.append("Overall Results")
-    lines.append("-" * 100)
-    lines.append(f"{'Method':20s} | {'N':>6s} | {'EM':>7s} | {'F1':>7s} | {'ANLS':>7s}")
-    lines.append("-" * 100)
-
-    for item in overall:
-        lines.append(
-            f"{item['method']:20s} | "
-            f"{item['num_examples']:6d} | "
-            f"{item['exact_match']:7.4f} | "
-            f"{item['f1']:7.4f} | "
-            f"{item['anls']:7.4f}"
-        )
-
-    lines.append("")
-    lines.append("Breakdown by Question Type")
-    lines.append("-" * 100)
-    lines.append(
-        f"{'Method':20s} | {'Question Type':30s} | {'N':>6s} | {'EM':>7s} | {'F1':>7s} | {'ANLS':>7s}"
-    )
-    lines.append("-" * 100)
-
-    for item in by_question:
-        lines.append(
-            f"{item['method']:20s} | "
-            f"{item['question_type']:30s} | "
-            f"{item['num_examples']:6d} | "
-            f"{item['exact_match']:7.4f} | "
-            f"{item['f1']:7.4f} | "
-            f"{item['anls']:7.4f}"
-        )
-
-    return "\n".join(lines)
-
-
 def main():
-    if not QA_FILE.exists():
-        raise FileNotFoundError(f"Missing QA file: {QA_FILE}")
+    if not qa_file.exists():
+        raise FileNotFoundError(f"Missing QA file: {qa_file}")
 
     rows = []
 
-    with open(QA_FILE, "r", encoding="utf-8") as f:
+    with open(qa_file, "r", encoding="utf-8") as f:
         for line in f:
             rows.append(json.loads(line))
 
@@ -308,25 +254,19 @@ def main():
     overall = summarize_overall(predictions)
     by_question = summarize_by_question_type(predictions)
 
-    with open(OUT_RESULTS, "w", encoding="utf-8") as f:
+    with open(out_results, "w", encoding="utf-8") as f:
         for row in predictions:
             f.write(json.dumps(row) + "\n")
 
-    with open(OUT_SUMMARY, "w", encoding="utf-8") as f:
+    with open(out_summary, "w", encoding="utf-8") as f:
         json.dump({
             "overall": overall,
             "by_question_type": by_question,
         }, f, indent=2)
 
-    table = make_report_table(overall, by_question)
-
-    with open(OUT_TABLE, "w", encoding="utf-8") as f:
-        f.write(table)
-
-    print(table, flush=True)
-    print(f"\nSaved detailed results to: {OUT_RESULTS}", flush=True)
-    print(f"Saved summary to: {OUT_SUMMARY}", flush=True)
-    print(f"Saved report table to: {OUT_TABLE}", flush=True)
+    print(f"\nSaved detailed results to: {out_results}", flush=True)
+    print(f"Saved summary to: {out_summary}", flush=True)
+    print(f"Saved report table to: {out_table}", flush=True)
 
 
 if __name__ == "__main__":
