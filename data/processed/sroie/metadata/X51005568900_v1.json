@@ -1,0 +1,38 @@
+{
+  "dataset": "sroie",
+  "doc_id": "X51005568900",
+  "original_image": "data/processed/sroie/original/X51005568900.jpg",
+  "revised_image": "data/processed/sroie/revised/X51005568900_v1.jpg",
+  "field_name": "address",
+  "change_type": "replacement",
+  "old_value": "LOT 1851-A & 1851-B, JALAN KPB 6, KAWASAN PERINDUSTRIAN BALAKONG, 43300 SERI KEMBANGAN, SELANGOR",
+  "new_value": "123 UPDATED STREET",
+  "box": [
+    108,
+    425,
+    786,
+    465
+  ],
+  "qa_pairs": [
+    {
+      "qa_id": "X51005568900_address_replacement_0",
+      "question": "What was the address changed to?",
+      "answer": "123 UPDATED STREET"
+    },
+    {
+      "qa_id": "X51005568900_address_replacement_1",
+      "question": "What was the original address before the revision?",
+      "answer": "LOT 1851-A & 1851-B, JALAN KPB 6, KAWASAN PERINDUSTRIAN BALAKONG, 43300 SERI KEMBANGAN, SELANGOR"
+    },
+    {
+      "qa_id": "X51005568900_address_replacement_2",
+      "question": "How did the address change?",
+      "answer": "The address changed from LOT 1851-A & 1851-B, JALAN KPB 6, KAWASAN PERINDUSTRIAN BALAKONG, 43300 SERI KEMBANGAN, SELANGOR to 123 UPDATED STREET."
+    },
+    {
+      "qa_id": "X51005568900_address_replacement_3",
+      "question": "What type of revision occurred?",
+      "answer": "replacement"
+    }
+  ]
+}

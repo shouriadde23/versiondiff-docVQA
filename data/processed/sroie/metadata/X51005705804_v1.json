@@ -1,0 +1,38 @@
+{
+  "dataset": "sroie",
+  "doc_id": "X51005705804",
+  "original_image": "data/processed/sroie/original/X51005705804.jpg",
+  "revised_image": "data/processed/sroie/revised/X51005705804_v1.jpg",
+  "field_name": "company",
+  "change_type": "replacement",
+  "old_value": "ASO ELECTRICAL TRADING SDN BHD",
+  "new_value": "UPDATED MART",
+  "box": [
+    334,
+    120,
+    976,
+    182
+  ],
+  "qa_pairs": [
+    {
+      "qa_id": "X51005705804_company_replacement_0",
+      "question": "What was the company changed to?",
+      "answer": "UPDATED MART"
+    },
+    {
+      "qa_id": "X51005705804_company_replacement_1",
+      "question": "What was the original company before the revision?",
+      "answer": "ASO ELECTRICAL TRADING SDN BHD"
+    },
+    {
+      "qa_id": "X51005705804_company_replacement_2",
+      "question": "How did the company change?",
+      "answer": "The company changed from ASO ELECTRICAL TRADING SDN BHD to UPDATED MART."
+    },
+    {
+      "qa_id": "X51005705804_company_replacement_3",
+      "question": "What type of revision occurred?",
+      "answer": "replacement"
+    }
+  ]
+}

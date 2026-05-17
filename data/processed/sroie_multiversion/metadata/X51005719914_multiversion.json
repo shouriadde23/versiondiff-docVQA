@@ -1,0 +1,23 @@
+{
+  "dataset": "sroie",
+  "doc_id": "X51005719914",
+  "field_name": "address",
+  "value_history": [
+    "LOT 1851-A & 1851-B, JALAN KPB 6, KAWASAN PERINDUSTRIAN BALAKONG, 43300 SERI KEMBANGAN, SELANGOR",
+    "123 UPDATED STREET",
+    "456 REVISED ROAD",
+    "789 FINAL AVE"
+  ],
+  "version_paths": [
+    "data/processed/sroie_multiversion/images/X51005719914_v0.jpg",
+    "data/processed/sroie_multiversion/images/X51005719914_v1.jpg",
+    "data/processed/sroie_multiversion/images/X51005719914_v2.jpg",
+    "data/processed/sroie_multiversion/images/X51005719914_v3.jpg"
+  ],
+  "box": [
+    97,
+    413,
+    773,
+    457
+  ]
+}

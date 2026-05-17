@@ -1,0 +1,33 @@
+{
+  "dataset": "sroie",
+  "doc_id": "X51005433514",
+  "original_image": "data/processed/sroie/original/X51005433514.jpg",
+  "revised_image": "data/processed/sroie/revised/X51005433514_v1.jpg",
+  "field_name": "address",
+  "change_type": "deletion",
+  "old_value": "12, JALAN TAMPOI 7/4,KAWASAN PERINDUSTRIAN TAMPOI 81200 JOHOR BAHRU,JOHOR",
+  "new_value": "",
+  "box": [
+    324,
+    350,
+    575,
+    365
+  ],
+  "qa_pairs": [
+    {
+      "qa_id": "X51005433514_address_deletion_0",
+      "question": "What address value was removed?",
+      "answer": "12, JALAN TAMPOI 7/4,KAWASAN PERINDUSTRIAN TAMPOI 81200 JOHOR BAHRU,JOHOR"
+    },
+    {
+      "qa_id": "X51005433514_address_deletion_1",
+      "question": "What type of revision occurred?",
+      "answer": "deletion"
+    },
+    {
+      "qa_id": "X51005433514_address_deletion_2",
+      "question": "Was the address deleted?",
+      "answer": "Yes"
+    }
+  ]
+}

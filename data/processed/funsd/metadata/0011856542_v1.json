@@ -1,0 +1,42 @@
+{
+  "doc_id": "0011856542",
+  "original_image": "data/processed/funsd/original/0011856542.png",
+  "revised_image": "data/processed/funsd/revised/0011856542_v1.png",
+  "change_type": "replacement",
+  "field_name": "question",
+  "old_value": "BY",
+  "new_value": "NEWVALUE",
+  "box": [
+    193,
+    381,
+    218,
+    393
+  ],
+  "qa_pairs": [
+    {
+      "qa_id": "0011856542_replacement_0",
+      "question": "What value was changed in the document?",
+      "answer": "The value changed from BY to NEWVALUE."
+    },
+    {
+      "qa_id": "0011856542_replacement_1",
+      "question": "What was the original value before the revision?",
+      "answer": "BY"
+    },
+    {
+      "qa_id": "0011856542_replacement_2",
+      "question": "What is the revised value after the change?",
+      "answer": "NEWVALUE"
+    },
+    {
+      "qa_id": "0011856542_replacement_3",
+      "question": "How did the value change?",
+      "answer": "BY was replaced with NEWVALUE."
+    },
+    {
+      "qa_id": "0011856542_replacement_4",
+      "question": "What type of revision occurred?",
+      "answer": "replacement"
+    }
+  ]
+}

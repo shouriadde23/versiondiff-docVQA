@@ -1,0 +1,23 @@
+{
+  "dataset": "sroie",
+  "doc_id": "X51005442378",
+  "field_name": "address",
+  "value_history": [
+    "LOT R1, KWS REHAT & RAWAT PAGOH ARAH UTARA, SIMPANG AMPAT PAGOH, LEBUHRAYA UTARA SELATAN, 84600,PAGOH,JOHOR",
+    "123 UPDATED STREET",
+    "456 REVISED ROAD",
+    "789 FINAL AVE"
+  ],
+  "version_paths": [
+    "data/processed/sroie_multiversion/images/X51005442378_v0.jpg",
+    "data/processed/sroie_multiversion/images/X51005442378_v1.jpg",
+    "data/processed/sroie_multiversion/images/X51005442378_v2.jpg",
+    "data/processed/sroie_multiversion/images/X51005442378_v3.jpg"
+  ],
+  "box": [
+    338,
+    398,
+    648,
+    411
+  ]
+}

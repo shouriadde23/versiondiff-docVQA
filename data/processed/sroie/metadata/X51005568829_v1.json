@@ -1,0 +1,33 @@
+{
+  "dataset": "sroie",
+  "doc_id": "X51005568829",
+  "original_image": "data/processed/sroie/original/X51005568829.jpg",
+  "revised_image": "data/processed/sroie/revised/X51005568829_v1.jpg",
+  "field_name": "address",
+  "change_type": "deletion",
+  "old_value": "NO.22 JALAN PUTERI 2/4 BANDAR PUTERI 47100 PUCHONG, SELANGOR",
+  "new_value": "",
+  "box": [
+    218,
+    254,
+    685,
+    294
+  ],
+  "qa_pairs": [
+    {
+      "qa_id": "X51005568829_address_deletion_0",
+      "question": "What address value was removed?",
+      "answer": "NO.22 JALAN PUTERI 2/4 BANDAR PUTERI 47100 PUCHONG, SELANGOR"
+    },
+    {
+      "qa_id": "X51005568829_address_deletion_1",
+      "question": "What type of revision occurred?",
+      "answer": "deletion"
+    },
+    {
+      "qa_id": "X51005568829_address_deletion_2",
+      "question": "Was the address deleted?",
+      "answer": "Yes"
+    }
+  ]
+}

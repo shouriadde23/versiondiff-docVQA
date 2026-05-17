@@ -1,0 +1,42 @@
+{
+  "doc_id": "0011845203",
+  "original_image": "data/processed/funsd/original/0011845203.png",
+  "revised_image": "data/processed/funsd/revised/0011845203_v1.png",
+  "change_type": "replacement",
+  "field_name": "answer",
+  "old_value": "568-",
+  "new_value": "04/27/2026",
+  "box": [
+    288,
+    656,
+    315,
+    670
+  ],
+  "qa_pairs": [
+    {
+      "qa_id": "0011845203_replacement_0",
+      "question": "What value was changed in the document?",
+      "answer": "The value changed from 568- to 04/27/2026."
+    },
+    {
+      "qa_id": "0011845203_replacement_1",
+      "question": "What was the original value before the revision?",
+      "answer": "568-"
+    },
+    {
+      "qa_id": "0011845203_replacement_2",
+      "question": "What is the revised value after the change?",
+      "answer": "04/27/2026"
+    },
+    {
+      "qa_id": "0011845203_replacement_3",
+      "question": "How did the value change?",
+      "answer": "568- was replaced with 04/27/2026."
+    },
+    {
+      "qa_id": "0011845203_replacement_4",
+      "question": "What type of revision occurred?",
+      "answer": "replacement"
+    }
+  ]
+}

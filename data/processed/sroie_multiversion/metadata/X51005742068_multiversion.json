@@ -1,0 +1,23 @@
+{
+  "dataset": "sroie",
+  "doc_id": "X51005742068",
+  "field_name": "address",
+  "value_history": [
+    "LOT 1626, MUKIM KAMPUNG LAUT TUMPAT 16200 PALEKBANG, KELANTAN",
+    "123 UPDATED STREET",
+    "456 REVISED ROAD",
+    "789 FINAL AVE"
+  ],
+  "version_paths": [
+    "data/processed/sroie_multiversion/images/X51005742068_v0.jpg",
+    "data/processed/sroie_multiversion/images/X51005742068_v1.jpg",
+    "data/processed/sroie_multiversion/images/X51005742068_v2.jpg",
+    "data/processed/sroie_multiversion/images/X51005742068_v3.jpg"
+  ],
+  "box": [
+    175,
+    156,
+    661,
+    207
+  ]
+}

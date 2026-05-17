@@ -1,0 +1,32 @@
+{
+  "doc_id": "00851772_1780",
+  "original_image": "data/processed/funsd/original/00851772_1780.png",
+  "revised_image": "data/processed/funsd/revised/00851772_1780_v1.png",
+  "change_type": "insertion",
+  "field_name": "other",
+  "old_value": "00851772",
+  "new_value": "REVIEWED",
+  "box": [
+    619,
+    778,
+    637,
+    863
+  ],
+  "qa_pairs": [
+    {
+      "qa_id": "00851772_1780_insertion_0",
+      "question": "What value was added to the document?",
+      "answer": "REVIEWED"
+    },
+    {
+      "qa_id": "00851772_1780_insertion_1",
+      "question": "What type of revision occurred?",
+      "answer": "insertion"
+    },
+    {
+      "qa_id": "00851772_1780_insertion_2",
+      "question": "Was any new value inserted?",
+      "answer": "Yes"
+    }
+  ]
+}

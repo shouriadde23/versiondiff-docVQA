@@ -1,0 +1,33 @@
+{
+  "dataset": "sroie",
+  "doc_id": "X51005757243",
+  "original_image": "data/processed/sroie/original/X51005757243.jpg",
+  "revised_image": "data/processed/sroie/revised/X51005757243_v1.jpg",
+  "field_name": "address",
+  "change_type": "insertion",
+  "old_value": "NO 8, JALAN 7/118B, DESA TUN RAZAK 56000 KUALA LUMPUR, MALAYSI.",
+  "new_value": "456 NEW ROAD",
+  "box": [
+    37,
+    294,
+    639,
+    331
+  ],
+  "qa_pairs": [
+    {
+      "qa_id": "X51005757243_address_insertion_0",
+      "question": "What address value was added?",
+      "answer": "456 NEW ROAD"
+    },
+    {
+      "qa_id": "X51005757243_address_insertion_1",
+      "question": "What type of revision occurred?",
+      "answer": "insertion"
+    },
+    {
+      "qa_id": "X51005757243_address_insertion_2",
+      "question": "Was a new address inserted?",
+      "answer": "Yes"
+    }
+  ]
+}

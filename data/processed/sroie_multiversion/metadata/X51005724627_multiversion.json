@@ -1,0 +1,23 @@
+{
+  "dataset": "sroie",
+  "doc_id": "X51005724627",
+  "field_name": "company",
+  "value_history": [
+    "KEDAI PAPAN YEW CHUAN",
+    "UPDATED MART",
+    "REVISED SHOP",
+    "FINAL STORE"
+  ],
+  "version_paths": [
+    "data/processed/sroie_multiversion/images/X51005724627_v0.jpg",
+    "data/processed/sroie_multiversion/images/X51005724627_v1.jpg",
+    "data/processed/sroie_multiversion/images/X51005724627_v2.jpg",
+    "data/processed/sroie_multiversion/images/X51005724627_v3.jpg"
+  ],
+  "box": [
+    158,
+    260,
+    754,
+    298
+  ]
+}

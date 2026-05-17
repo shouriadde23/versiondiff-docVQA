@@ -1,0 +1,32 @@
+{
+  "doc_id": "01073843",
+  "original_image": "data/processed/funsd/original/01073843.png",
+  "revised_image": "data/processed/funsd/revised/01073843_v1.png",
+  "change_type": "deletion",
+  "field_name": "question",
+  "old_value": "PLATE)",
+  "new_value": "",
+  "box": [
+    598,
+    458,
+    627,
+    468
+  ],
+  "qa_pairs": [
+    {
+      "qa_id": "01073843_deletion_0",
+      "question": "What value was removed from the document?",
+      "answer": "PLATE)"
+    },
+    {
+      "qa_id": "01073843_deletion_1",
+      "question": "What type of revision occurred?",
+      "answer": "deletion"
+    },
+    {
+      "qa_id": "01073843_deletion_2",
+      "question": "Was any value deleted?",
+      "answer": "Yes"
+    }
+  ]
+}

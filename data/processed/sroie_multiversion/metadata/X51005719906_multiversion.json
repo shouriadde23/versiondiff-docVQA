@@ -1,0 +1,23 @@
+{
+  "dataset": "sroie",
+  "doc_id": "X51005719906",
+  "field_name": "address",
+  "value_history": [
+    "NO 53, JALAN 3/62A, BANDAR MENJALARA, 52200 KUALA LUMPUR.",
+    "123 UPDATED STREET",
+    "456 REVISED ROAD",
+    "789 FINAL AVE"
+  ],
+  "version_paths": [
+    "data/processed/sroie_multiversion/images/X51005719906_v0.jpg",
+    "data/processed/sroie_multiversion/images/X51005719906_v1.jpg",
+    "data/processed/sroie_multiversion/images/X51005719906_v2.jpg",
+    "data/processed/sroie_multiversion/images/X51005719906_v3.jpg"
+  ],
+  "box": [
+    286,
+    213,
+    628,
+    250
+  ]
+}

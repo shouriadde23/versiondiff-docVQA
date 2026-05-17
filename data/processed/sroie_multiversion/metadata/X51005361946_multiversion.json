@@ -1,0 +1,23 @@
+{
+  "dataset": "sroie",
+  "doc_id": "X51005361946",
+  "field_name": "company",
+  "value_history": [
+    "MR. D.I.Y. (M) SDN BHD",
+    "UPDATED MART",
+    "REVISED SHOP",
+    "FINAL STORE"
+  ],
+  "version_paths": [
+    "data/processed/sroie_multiversion/images/X51005361946_v0.jpg",
+    "data/processed/sroie_multiversion/images/X51005361946_v1.jpg",
+    "data/processed/sroie_multiversion/images/X51005361946_v2.jpg",
+    "data/processed/sroie_multiversion/images/X51005361946_v3.jpg"
+  ],
+  "box": [
+    912,
+    372,
+    1216,
+    400
+  ]
+}

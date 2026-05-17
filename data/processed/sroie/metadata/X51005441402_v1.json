@@ -1,0 +1,33 @@
+{
+  "dataset": "sroie",
+  "doc_id": "X51005441402",
+  "original_image": "data/processed/sroie/original/X51005441402.jpg",
+  "revised_image": "data/processed/sroie/revised/X51005441402_v1.jpg",
+  "field_name": "address",
+  "change_type": "insertion",
+  "old_value": "109, SS21/1A, DAMANSARA UTAMA",
+  "new_value": "123 UPDATED STREET",
+  "box": [
+    172,
+    227,
+    323,
+    254
+  ],
+  "qa_pairs": [
+    {
+      "qa_id": "X51005441402_address_insertion_0",
+      "question": "What address value was added?",
+      "answer": "123 UPDATED STREET"
+    },
+    {
+      "qa_id": "X51005441402_address_insertion_1",
+      "question": "What type of revision occurred?",
+      "answer": "insertion"
+    },
+    {
+      "qa_id": "X51005441402_address_insertion_2",
+      "question": "Was a new address inserted?",
+      "answer": "Yes"
+    }
+  ]
+}

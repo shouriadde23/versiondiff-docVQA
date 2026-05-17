@@ -1,0 +1,23 @@
+{
+  "dataset": "sroie",
+  "doc_id": "X51005447833",
+  "field_name": "address",
+  "value_history": [
+    "176 JLN SUNGEI BESI 57100 KUALA LUMPUR.",
+    "123 UPDATED STREET",
+    "456 REVISED ROAD",
+    "789 FINAL AVE"
+  ],
+  "version_paths": [
+    "data/processed/sroie_multiversion/images/X51005447833_v0.jpg",
+    "data/processed/sroie_multiversion/images/X51005447833_v1.jpg",
+    "data/processed/sroie_multiversion/images/X51005447833_v2.jpg",
+    "data/processed/sroie_multiversion/images/X51005447833_v3.jpg"
+  ],
+  "box": [
+    60,
+    393,
+    415,
+    423
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "dataset": "sroie",
+  "doc_id": "X51005447839",
+  "field_name": "company",
+  "value_history": [
+    "RESTAURANT JIAWEI JIAWEI HOUSE",
+    "UPDATED MART",
+    "REVISED SHOP",
+    "FINAL STORE"
+  ],
+  "version_paths": [
+    "data/processed/sroie_multiversion/images/X51005447839_v0.jpg",
+    "data/processed/sroie_multiversion/images/X51005447839_v1.jpg",
+    "data/processed/sroie_multiversion/images/X51005447839_v2.jpg",
+    "data/processed/sroie_multiversion/images/X51005447839_v3.jpg"
+  ],
+  "box": [
+    257,
+    166,
+    683,
+    215
+  ]
+}

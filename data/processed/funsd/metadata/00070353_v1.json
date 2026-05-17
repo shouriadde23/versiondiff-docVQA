@@ -1,0 +1,32 @@
+{
+  "doc_id": "00070353",
+  "original_image": "data/processed/funsd/original/00070353.png",
+  "revised_image": "data/processed/funsd/revised/00070353_v1.png",
+  "change_type": "insertion",
+  "field_name": "other",
+  "old_value": "Form",
+  "new_value": "PAID",
+  "box": [
+    218,
+    68,
+    253,
+    83
+  ],
+  "qa_pairs": [
+    {
+      "qa_id": "00070353_insertion_0",
+      "question": "What value was added to the document?",
+      "answer": "PAID"
+    },
+    {
+      "qa_id": "00070353_insertion_1",
+      "question": "What type of revision occurred?",
+      "answer": "insertion"
+    },
+    {
+      "qa_id": "00070353_insertion_2",
+      "question": "Was any new value inserted?",
+      "answer": "Yes"
+    }
+  ]
+}

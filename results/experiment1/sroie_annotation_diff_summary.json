@@ -1,0 +1,23 @@
+[
+  {
+    "method": "revised_only_baseline",
+    "num_examples": 672,
+    "exact_match": 0.22321428571428573,
+    "f1": 0.23328486629109116,
+    "anls": 0.22321428571428573
+  },
+  {
+    "method": "dual_document_naive_baseline",
+    "num_examples": 672,
+    "exact_match": 0.0,
+    "f1": 0.12915931534746133,
+    "anls": 0.054044454500738644
+  },
+  {
+    "method": "annotation_diff_method",
+    "num_examples": 672,
+    "exact_match": 1.0,
+    "f1": 1.0,
+    "anls": 1.0
+  }
+]

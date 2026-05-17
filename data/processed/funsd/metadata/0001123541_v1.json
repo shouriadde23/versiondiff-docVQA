@@ -1,0 +1,32 @@
+{
+  "doc_id": "0001123541",
+  "original_image": "data/processed/funsd/original/0001123541.png",
+  "revised_image": "data/processed/funsd/revised/0001123541_v1.png",
+  "change_type": "insertion",
+  "field_name": "question",
+  "old_value": "Solutions",
+  "new_value": "APPROVED",
+  "box": [
+    137,
+    476,
+    204,
+    490
+  ],
+  "qa_pairs": [
+    {
+      "qa_id": "0001123541_insertion_0",
+      "question": "What value was added to the document?",
+      "answer": "APPROVED"
+    },
+    {
+      "qa_id": "0001123541_insertion_1",
+      "question": "What type of revision occurred?",
+      "answer": "insertion"
+    },
+    {
+      "qa_id": "0001123541_insertion_2",
+      "question": "Was any new value inserted?",
+      "answer": "Yes"
+    }
+  ]
+}

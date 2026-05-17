@@ -1,0 +1,33 @@
+{
+  "dataset": "sroie",
+  "doc_id": "X51005663277",
+  "original_image": "data/processed/sroie/original/X51005663277.jpg",
+  "revised_image": "data/processed/sroie/revised/X51005663277_v1.jpg",
+  "field_name": "total",
+  "change_type": "insertion",
+  "old_value": "29.68",
+  "new_value": "32.18",
+  "box": [
+    447,
+    775,
+    519,
+    800
+  ],
+  "qa_pairs": [
+    {
+      "qa_id": "X51005663277_total_insertion_0",
+      "question": "What total value was added?",
+      "answer": "32.18"
+    },
+    {
+      "qa_id": "X51005663277_total_insertion_1",
+      "question": "What type of revision occurred?",
+      "answer": "insertion"
+    },
+    {
+      "qa_id": "X51005663277_total_insertion_2",
+      "question": "Was a new total inserted?",
+      "answer": "Yes"
+    }
+  ]
+}

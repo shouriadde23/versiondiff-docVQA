@@ -1,0 +1,23 @@
+{
+  "dataset": "sroie",
+  "doc_id": "X51005663280",
+  "field_name": "company",
+  "value_history": [
+    "T.A.S LEISURE SDN BHD",
+    "UPDATED MART",
+    "REVISED SHOP",
+    "FINAL STORE"
+  ],
+  "version_paths": [
+    "data/processed/sroie_multiversion/images/X51005663280_v0.jpg",
+    "data/processed/sroie_multiversion/images/X51005663280_v1.jpg",
+    "data/processed/sroie_multiversion/images/X51005663280_v2.jpg",
+    "data/processed/sroie_multiversion/images/X51005663280_v3.jpg"
+  ],
+  "box": [
+    45,
+    394,
+    625,
+    434
+  ]
+}

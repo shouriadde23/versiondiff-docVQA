@@ -1,0 +1,23 @@
+{
+  "dataset": "sroie",
+  "doc_id": "X51005442379",
+  "field_name": "company",
+  "value_history": [
+    "UNIHAKKA INTERNATIONAL SDN BHD",
+    "UPDATED MART",
+    "REVISED SHOP",
+    "FINAL STORE"
+  ],
+  "version_paths": [
+    "data/processed/sroie_multiversion/images/X51005442379_v0.jpg",
+    "data/processed/sroie_multiversion/images/X51005442379_v1.jpg",
+    "data/processed/sroie_multiversion/images/X51005442379_v2.jpg",
+    "data/processed/sroie_multiversion/images/X51005442379_v3.jpg"
+  ],
+  "box": [
+    360,
+    320,
+    649,
+    335
+  ]
+}

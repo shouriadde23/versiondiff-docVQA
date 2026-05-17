@@ -1,0 +1,23 @@
+{
+  "dataset": "sroie",
+  "doc_id": "X51005757286",
+  "field_name": "address",
+  "value_history": [
+    "13-1, JALAN PJU 5/10, DATARAN SUNWAY, KOTA DAMANSARA, 47810, PETALING JAYA, SELANGOR",
+    "123 UPDATED STREET",
+    "456 REVISED ROAD",
+    "789 FINAL AVE"
+  ],
+  "version_paths": [
+    "data/processed/sroie_multiversion/images/X51005757286_v0.jpg",
+    "data/processed/sroie_multiversion/images/X51005757286_v1.jpg",
+    "data/processed/sroie_multiversion/images/X51005757286_v2.jpg",
+    "data/processed/sroie_multiversion/images/X51005757286_v3.jpg"
+  ],
+  "box": [
+    219,
+    303,
+    498,
+    336
+  ]
+}

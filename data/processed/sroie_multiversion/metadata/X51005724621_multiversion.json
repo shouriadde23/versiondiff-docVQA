@@ -1,0 +1,23 @@
+{
+  "dataset": "sroie",
+  "doc_id": "X51005724621",
+  "field_name": "address",
+  "value_history": [
+    "LOT 276 JALAN BANTING 43800 DENGKIL, SELANGOR.",
+    "123 UPDATED STREET",
+    "456 REVISED ROAD",
+    "789 FINAL AVE"
+  ],
+  "version_paths": [
+    "data/processed/sroie_multiversion/images/X51005724621_v0.jpg",
+    "data/processed/sroie_multiversion/images/X51005724621_v1.jpg",
+    "data/processed/sroie_multiversion/images/X51005724621_v2.jpg",
+    "data/processed/sroie_multiversion/images/X51005724621_v3.jpg"
+  ],
+  "box": [
+    649,
+    70,
+    694,
+    119
+  ]
+}

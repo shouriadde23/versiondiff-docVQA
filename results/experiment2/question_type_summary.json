@@ -1,0 +1,708 @@
+{
+  "by_dataset_method_question_type": [
+    {
+      "dataset": "funsd",
+      "method": "annotation_diff_method",
+      "question_type": "added_value_detection",
+      "num_examples": 33,
+      "exact_match": 1.0,
+      "f1": 1.0,
+      "anls": 1.0
+    },
+    {
+      "dataset": "funsd",
+      "method": "annotation_diff_method",
+      "question_type": "change_description",
+      "num_examples": 33,
+      "exact_match": 1.0,
+      "f1": 1.0,
+      "anls": 1.0
+    },
+    {
+      "dataset": "funsd",
+      "method": "annotation_diff_method",
+      "question_type": "deletion_yes_no",
+      "num_examples": 34,
+      "exact_match": 1.0,
+      "f1": 1.0,
+      "anls": 1.0
+    },
+    {
+      "dataset": "funsd",
+      "method": "annotation_diff_method",
+      "question_type": "generic_change_identification",
+      "num_examples": 33,
+      "exact_match": 1.0,
+      "f1": 1.0,
+      "anls": 1.0
+    },
+    {
+      "dataset": "funsd",
+      "method": "annotation_diff_method",
+      "question_type": "insertion_yes_no",
+      "num_examples": 33,
+      "exact_match": 1.0,
+      "f1": 1.0,
+      "anls": 1.0
+    },
+    {
+      "dataset": "funsd",
+      "method": "annotation_diff_method",
+      "question_type": "original_value_retrieval",
+      "num_examples": 33,
+      "exact_match": 1.0,
+      "f1": 1.0,
+      "anls": 1.0
+    },
+    {
+      "dataset": "funsd",
+      "method": "annotation_diff_method",
+      "question_type": "removed_value_detection",
+      "num_examples": 34,
+      "exact_match": 1.0,
+      "f1": 1.0,
+      "anls": 1.0
+    },
+    {
+      "dataset": "funsd",
+      "method": "annotation_diff_method",
+      "question_type": "revised_value_change",
+      "num_examples": 33,
+      "exact_match": 1.0,
+      "f1": 1.0,
+      "anls": 1.0
+    },
+    {
+      "dataset": "funsd",
+      "method": "annotation_diff_method",
+      "question_type": "revision_type_classification",
+      "num_examples": 100,
+      "exact_match": 1.0,
+      "f1": 1.0,
+      "anls": 1.0
+    },
+    {
+      "dataset": "funsd",
+      "method": "dual_document_naive_baseline",
+      "question_type": "added_value_detection",
+      "num_examples": 33,
+      "exact_match": 0.0,
+      "f1": 0.0,
+      "anls": 0.0
+    },
+    {
+      "dataset": "funsd",
+      "method": "dual_document_naive_baseline",
+      "question_type": "change_description",
+      "num_examples": 33,
+      "exact_match": 0.0,
+      "f1": 0.1818181818181817,
+      "anls": 0.0
+    },
+    {
+      "dataset": "funsd",
+      "method": "dual_document_naive_baseline",
+      "question_type": "deletion_yes_no",
+      "num_examples": 34,
+      "exact_match": 0.0,
+      "f1": 0.0,
+      "anls": 0.0
+    },
+    {
+      "dataset": "funsd",
+      "method": "dual_document_naive_baseline",
+      "question_type": "generic_change_identification",
+      "num_examples": 33,
+      "exact_match": 0.0,
+      "f1": 0.3076923076923077,
+      "anls": 0.0
+    },
+    {
+      "dataset": "funsd",
+      "method": "dual_document_naive_baseline",
+      "question_type": "insertion_yes_no",
+      "num_examples": 33,
+      "exact_match": 0.0,
+      "f1": 0.0,
+      "anls": 0.0
+    },
+    {
+      "dataset": "funsd",
+      "method": "dual_document_naive_baseline",
+      "question_type": "original_value_retrieval",
+      "num_examples": 33,
+      "exact_match": 0.0,
+      "f1": 0.0,
+      "anls": 0.0
+    },
+    {
+      "dataset": "funsd",
+      "method": "dual_document_naive_baseline",
+      "question_type": "removed_value_detection",
+      "num_examples": 34,
+      "exact_match": 0.0,
+      "f1": 0.014939309056956115,
+      "anls": 0.0
+    },
+    {
+      "dataset": "funsd",
+      "method": "dual_document_naive_baseline",
+      "question_type": "revised_value_change",
+      "num_examples": 33,
+      "exact_match": 0.0,
+      "f1": 0.06926406926406925,
+      "anls": 0.0
+    },
+    {
+      "dataset": "funsd",
+      "method": "dual_document_naive_baseline",
+      "question_type": "revision_type_classification",
+      "num_examples": 100,
+      "exact_match": 0.0,
+      "f1": 0.0,
+      "anls": 0.0
+    },
+    {
+      "dataset": "funsd",
+      "method": "revised_only_baseline",
+      "question_type": "added_value_detection",
+      "num_examples": 33,
+      "exact_match": 1.0,
+      "f1": 1.0,
+      "anls": 1.0
+    },
+    {
+      "dataset": "funsd",
+      "method": "revised_only_baseline",
+      "question_type": "change_description",
+      "num_examples": 33,
+      "exact_match": 0.0,
+      "f1": 0.0,
+      "anls": 0.0
+    },
+    {
+      "dataset": "funsd",
+      "method": "revised_only_baseline",
+      "question_type": "deletion_yes_no",
+      "num_examples": 34,
+      "exact_match": 0.0,
+      "f1": 0.0,
+      "anls": 0.0
+    },
+    {
+      "dataset": "funsd",
+      "method": "revised_only_baseline",
+      "question_type": "generic_change_identification",
+      "num_examples": 33,
+      "exact_match": 0.0,
+      "f1": 0.045454545454545456,
+      "anls": 0.0
+    },
+    {
+      "dataset": "funsd",
+      "method": "revised_only_baseline",
+      "question_type": "insertion_yes_no",
+      "num_examples": 33,
+      "exact_match": 0.0,
+      "f1": 0.0,
+      "anls": 0.0
+    },
+    {
+      "dataset": "funsd",
+      "method": "revised_only_baseline",
+      "question_type": "original_value_retrieval",
+      "num_examples": 33,
+      "exact_match": 0.0,
+      "f1": 0.0,
+      "anls": 0.0
+    },
+    {
+      "dataset": "funsd",
+      "method": "revised_only_baseline",
+      "question_type": "removed_value_detection",
+      "num_examples": 34,
+      "exact_match": 0.0,
+      "f1": 0.0,
+      "anls": 0.0
+    },
+    {
+      "dataset": "funsd",
+      "method": "revised_only_baseline",
+      "question_type": "revised_value_change",
+      "num_examples": 33,
+      "exact_match": 1.0,
+      "f1": 1.0,
+      "anls": 1.0
+    },
+    {
+      "dataset": "funsd",
+      "method": "revised_only_baseline",
+      "question_type": "revision_type_classification",
+      "num_examples": 100,
+      "exact_match": 0.0,
+      "f1": 0.0,
+      "anls": 0.0
+    },
+    {
+      "dataset": "sroie",
+      "method": "annotation_diff_method",
+      "question_type": "added_value_detection",
+      "num_examples": 72,
+      "exact_match": 1.0,
+      "f1": 1.0,
+      "anls": 1.0
+    },
+    {
+      "dataset": "sroie",
+      "method": "annotation_diff_method",
+      "question_type": "change_description",
+      "num_examples": 78,
+      "exact_match": 1.0,
+      "f1": 1.0,
+      "anls": 1.0
+    },
+    {
+      "dataset": "sroie",
+      "method": "annotation_diff_method",
+      "question_type": "deletion_yes_no",
+      "num_examples": 48,
+      "exact_match": 1.0,
+      "f1": 1.0,
+      "anls": 1.0
+    },
+    {
+      "dataset": "sroie",
+      "method": "annotation_diff_method",
+      "question_type": "insertion_yes_no",
+      "num_examples": 72,
+      "exact_match": 1.0,
+      "f1": 1.0,
+      "anls": 1.0
+    },
+    {
+      "dataset": "sroie",
+      "method": "annotation_diff_method",
+      "question_type": "original_value_retrieval",
+      "num_examples": 78,
+      "exact_match": 1.0,
+      "f1": 1.0,
+      "anls": 1.0
+    },
+    {
+      "dataset": "sroie",
+      "method": "annotation_diff_method",
+      "question_type": "removed_value_detection",
+      "num_examples": 48,
+      "exact_match": 1.0,
+      "f1": 1.0,
+      "anls": 1.0
+    },
+    {
+      "dataset": "sroie",
+      "method": "annotation_diff_method",
+      "question_type": "revised_value_change",
+      "num_examples": 78,
+      "exact_match": 1.0,
+      "f1": 1.0,
+      "anls": 1.0
+    },
+    {
+      "dataset": "sroie",
+      "method": "annotation_diff_method",
+      "question_type": "revision_type_classification",
+      "num_examples": 198,
+      "exact_match": 1.0,
+      "f1": 1.0,
+      "anls": 1.0
+    },
+    {
+      "dataset": "sroie",
+      "method": "dual_document_naive_baseline",
+      "question_type": "added_value_detection",
+      "num_examples": 72,
+      "exact_match": 0.0,
+      "f1": 0.12401795735129066,
+      "anls": 0.0
+    },
+    {
+      "dataset": "sroie",
+      "method": "dual_document_naive_baseline",
+      "question_type": "change_description",
+      "num_examples": 78,
+      "exact_match": 0.0,
+      "f1": 0.39336638860714157,
+      "anls": 0.2471384718981163
+    },
+    {
+      "dataset": "sroie",
+      "method": "dual_document_naive_baseline",
+      "question_type": "deletion_yes_no",
+      "num_examples": 48,
+      "exact_match": 0.0,
+      "f1": 0.0,
+      "anls": 0.0
+    },
+    {
+      "dataset": "sroie",
+      "method": "dual_document_naive_baseline",
+      "question_type": "insertion_yes_no",
+      "num_examples": 72,
+      "exact_match": 0.0,
+      "f1": 0.0,
+      "anls": 0.0
+    },
+    {
+      "dataset": "sroie",
+      "method": "dual_document_naive_baseline",
+      "question_type": "original_value_retrieval",
+      "num_examples": 78,
+      "exact_match": 0.0,
+      "f1": 0.31386942022873415,
+      "anls": 0.12234501359963801
+    },
+    {
+      "dataset": "sroie",
+      "method": "dual_document_naive_baseline",
+      "question_type": "removed_value_detection",
+      "num_examples": 48,
+      "exact_match": 0.0,
+      "f1": 0.3227553553562206,
+      "anls": 0.1562116990764902
+    },
+    {
+      "dataset": "sroie",
+      "method": "dual_document_naive_baseline",
+      "question_type": "revised_value_change",
+      "num_examples": 78,
+      "exact_match": 0.0,
+      "f1": 0.0924245748449234,
+      "anls": 0.0
+    },
+    {
+      "dataset": "sroie",
+      "method": "dual_document_naive_baseline",
+      "question_type": "revision_type_classification",
+      "num_examples": 198,
+      "exact_match": 0.0,
+      "f1": 0.0,
+      "anls": 0.0
+    },
+    {
+      "dataset": "sroie",
+      "method": "revised_only_baseline",
+      "question_type": "added_value_detection",
+      "num_examples": 72,
+      "exact_match": 1.0,
+      "f1": 1.0,
+      "anls": 1.0
+    },
+    {
+      "dataset": "sroie",
+      "method": "revised_only_baseline",
+      "question_type": "change_description",
+      "num_examples": 78,
+      "exact_match": 0.0,
+      "f1": 0.08676192496940024,
+      "anls": 0.0
+    },
+    {
+      "dataset": "sroie",
+      "method": "revised_only_baseline",
+      "question_type": "deletion_yes_no",
+      "num_examples": 48,
+      "exact_match": 0.0,
+      "f1": 0.0,
+      "anls": 0.0
+    },
+    {
+      "dataset": "sroie",
+      "method": "revised_only_baseline",
+      "question_type": "insertion_yes_no",
+      "num_examples": 72,
+      "exact_match": 0.0,
+      "f1": 0.0,
+      "anls": 0.0
+    },
+    {
+      "dataset": "sroie",
+      "method": "revised_only_baseline",
+      "question_type": "original_value_retrieval",
+      "num_examples": 78,
+      "exact_match": 0.0,
+      "f1": 0.0,
+      "anls": 0.0
+    },
+    {
+      "dataset": "sroie",
+      "method": "revised_only_baseline",
+      "question_type": "removed_value_detection",
+      "num_examples": 48,
+      "exact_match": 0.0,
+      "f1": 0.0,
+      "anls": 0.0
+    },
+    {
+      "dataset": "sroie",
+      "method": "revised_only_baseline",
+      "question_type": "revised_value_change",
+      "num_examples": 78,
+      "exact_match": 1.0,
+      "f1": 1.0,
+      "anls": 1.0
+    },
+    {
+      "dataset": "sroie",
+      "method": "revised_only_baseline",
+      "question_type": "revision_type_classification",
+      "num_examples": 198,
+      "exact_match": 0.0,
+      "f1": 0.0,
+      "anls": 0.0
+    }
+  ],
+  "combined_by_method_question_type": [
+    {
+      "dataset": "combined_funsd_sroie",
+      "method": "annotation_diff_method",
+      "question_type": "added_value_detection",
+      "num_examples": 105,
+      "exact_match": 1.0,
+      "f1": 1.0,
+      "anls": 1.0
+    },
+    {
+      "dataset": "combined_funsd_sroie",
+      "method": "annotation_diff_method",
+      "question_type": "change_description",
+      "num_examples": 111,
+      "exact_match": 1.0,
+      "f1": 1.0,
+      "anls": 1.0
+    },
+    {
+      "dataset": "combined_funsd_sroie",
+      "method": "annotation_diff_method",
+      "question_type": "deletion_yes_no",
+      "num_examples": 82,
+      "exact_match": 1.0,
+      "f1": 1.0,
+      "anls": 1.0
+    },
+    {
+      "dataset": "combined_funsd_sroie",
+      "method": "annotation_diff_method",
+      "question_type": "generic_change_identification",
+      "num_examples": 33,
+      "exact_match": 1.0,
+      "f1": 1.0,
+      "anls": 1.0
+    },
+    {
+      "dataset": "combined_funsd_sroie",
+      "method": "annotation_diff_method",
+      "question_type": "insertion_yes_no",
+      "num_examples": 105,
+      "exact_match": 1.0,
+      "f1": 1.0,
+      "anls": 1.0
+    },
+    {
+      "dataset": "combined_funsd_sroie",
+      "method": "annotation_diff_method",
+      "question_type": "original_value_retrieval",
+      "num_examples": 111,
+      "exact_match": 1.0,
+      "f1": 1.0,
+      "anls": 1.0
+    },
+    {
+      "dataset": "combined_funsd_sroie",
+      "method": "annotation_diff_method",
+      "question_type": "removed_value_detection",
+      "num_examples": 82,
+      "exact_match": 1.0,
+      "f1": 1.0,
+      "anls": 1.0
+    },
+    {
+      "dataset": "combined_funsd_sroie",
+      "method": "annotation_diff_method",
+      "question_type": "revised_value_change",
+      "num_examples": 111,
+      "exact_match": 1.0,
+      "f1": 1.0,
+      "anls": 1.0
+    },
+    {
+      "dataset": "combined_funsd_sroie",
+      "method": "annotation_diff_method",
+      "question_type": "revision_type_classification",
+      "num_examples": 298,
+      "exact_match": 1.0,
+      "f1": 1.0,
+      "anls": 1.0
+    },
+    {
+      "dataset": "combined_funsd_sroie",
+      "method": "dual_document_naive_baseline",
+      "question_type": "added_value_detection",
+      "num_examples": 105,
+      "exact_match": 0.0,
+      "f1": 0.08504088504088503,
+      "anls": 0.0
+    },
+    {
+      "dataset": "combined_funsd_sroie",
+      "method": "dual_document_naive_baseline",
+      "question_type": "change_description",
+      "num_examples": 111,
+      "exact_match": 0.0,
+      "f1": 0.330473678480694,
+      "anls": 0.17366487214462226
+    },
+    {
+      "dataset": "combined_funsd_sroie",
+      "method": "dual_document_naive_baseline",
+      "question_type": "deletion_yes_no",
+      "num_examples": 82,
+      "exact_match": 0.0,
+      "f1": 0.0,
+      "anls": 0.0
+    },
+    {
+      "dataset": "combined_funsd_sroie",
+      "method": "dual_document_naive_baseline",
+      "question_type": "generic_change_identification",
+      "num_examples": 33,
+      "exact_match": 0.0,
+      "f1": 0.3076923076923077,
+      "anls": 0.0
+    },
+    {
+      "dataset": "combined_funsd_sroie",
+      "method": "dual_document_naive_baseline",
+      "question_type": "insertion_yes_no",
+      "num_examples": 105,
+      "exact_match": 0.0,
+      "f1": 0.0,
+      "anls": 0.0
+    },
+    {
+      "dataset": "combined_funsd_sroie",
+      "method": "dual_document_naive_baseline",
+      "question_type": "original_value_retrieval",
+      "num_examples": 111,
+      "exact_match": 0.0,
+      "f1": 0.22055688989046185,
+      "anls": 0.08597217171866454
+    },
+    {
+      "dataset": "combined_funsd_sroie",
+      "method": "dual_document_naive_baseline",
+      "question_type": "removed_value_detection",
+      "num_examples": 82,
+      "exact_match": 0.0,
+      "f1": 0.1951243117687207,
+      "anls": 0.09144099458136012
+    },
+    {
+      "dataset": "combined_funsd_sroie",
+      "method": "dual_document_naive_baseline",
+      "question_type": "revised_value_change",
+      "num_examples": 111,
+      "exact_match": 0.0,
+      "f1": 0.0855390191316965,
+      "anls": 0.0
+    },
+    {
+      "dataset": "combined_funsd_sroie",
+      "method": "dual_document_naive_baseline",
+      "question_type": "revision_type_classification",
+      "num_examples": 298,
+      "exact_match": 0.0,
+      "f1": 0.0,
+      "anls": 0.0
+    },
+    {
+      "dataset": "combined_funsd_sroie",
+      "method": "revised_only_baseline",
+      "question_type": "added_value_detection",
+      "num_examples": 105,
+      "exact_match": 1.0,
+      "f1": 1.0,
+      "anls": 1.0
+    },
+    {
+      "dataset": "combined_funsd_sroie",
+      "method": "revised_only_baseline",
+      "question_type": "change_description",
+      "num_examples": 111,
+      "exact_match": 0.0,
+      "f1": 0.06096783916768665,
+      "anls": 0.0
+    },
+    {
+      "dataset": "combined_funsd_sroie",
+      "method": "revised_only_baseline",
+      "question_type": "deletion_yes_no",
+      "num_examples": 82,
+      "exact_match": 0.0,
+      "f1": 0.0,
+      "anls": 0.0
+    },
+    {
+      "dataset": "combined_funsd_sroie",
+      "method": "revised_only_baseline",
+      "question_type": "generic_change_identification",
+      "num_examples": 33,
+      "exact_match": 0.0,
+      "f1": 0.045454545454545456,
+      "anls": 0.0
+    },
+    {
+      "dataset": "combined_funsd_sroie",
+      "method": "revised_only_baseline",
+      "question_type": "insertion_yes_no",
+      "num_examples": 105,
+      "exact_match": 0.0,
+      "f1": 0.0,
+      "anls": 0.0
+    },
+    {
+      "dataset": "combined_funsd_sroie",
+      "method": "revised_only_baseline",
+      "question_type": "original_value_retrieval",
+      "num_examples": 111,
+      "exact_match": 0.0,
+      "f1": 0.0,
+      "anls": 0.0
+    },
+    {
+      "dataset": "combined_funsd_sroie",
+      "method": "revised_only_baseline",
+      "question_type": "removed_value_detection",
+      "num_examples": 82,
+      "exact_match": 0.0,
+      "f1": 0.0,
+      "anls": 0.0
+    },
+    {
+      "dataset": "combined_funsd_sroie",
+      "method": "revised_only_baseline",
+      "question_type": "revised_value_change",
+      "num_examples": 111,
+      "exact_match": 1.0,
+      "f1": 1.0,
+      "anls": 1.0
+    },
+    {
+      "dataset": "combined_funsd_sroie",
+      "method": "revised_only_baseline",
+      "question_type": "revision_type_classification",
+      "num_examples": 298,
+      "exact_match": 0.0,
+      "f1": 0.0,
+      "anls": 0.0
+    }
+  ]
+}

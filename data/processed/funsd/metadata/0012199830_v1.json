@@ -1,0 +1,32 @@
+{
+  "doc_id": "0012199830",
+  "original_image": "data/processed/funsd/original/0012199830.png",
+  "revised_image": "data/processed/funsd/revised/0012199830_v1.png",
+  "change_type": "deletion",
+  "field_name": "answer",
+  "old_value": "Carboxylic",
+  "new_value": "",
+  "box": [
+    500,
+    391,
+    573,
+    406
+  ],
+  "qa_pairs": [
+    {
+      "qa_id": "0012199830_deletion_0",
+      "question": "What value was removed from the document?",
+      "answer": "Carboxylic"
+    },
+    {
+      "qa_id": "0012199830_deletion_1",
+      "question": "What type of revision occurred?",
+      "answer": "deletion"
+    },
+    {
+      "qa_id": "0012199830_deletion_2",
+      "question": "Was any value deleted?",
+      "answer": "Yes"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "dataset": "sroie",
+  "doc_id": "X51005568913",
+  "field_name": "address",
+  "value_history": [
+    "NO 2A JALAN COCHRANE TAMAN MALURI 55100 KUALA LUMPUR",
+    "123 UPDATED STREET",
+    "456 REVISED ROAD",
+    "789 FINAL AVE"
+  ],
+  "version_paths": [
+    "data/processed/sroie_multiversion/images/X51005568913_v0.jpg",
+    "data/processed/sroie_multiversion/images/X51005568913_v1.jpg",
+    "data/processed/sroie_multiversion/images/X51005568913_v2.jpg",
+    "data/processed/sroie_multiversion/images/X51005568913_v3.jpg"
+  ],
+  "box": [
+    281,
+    326,
+    641,
+    373
+  ]
+}

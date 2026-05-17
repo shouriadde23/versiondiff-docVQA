@@ -1,0 +1,23 @@
+{
+  "dataset": "sroie",
+  "doc_id": "X51005361897",
+  "field_name": "company",
+  "value_history": [
+    "TEO HENG STATIONERY & BOOKS",
+    "UPDATED MART",
+    "REVISED SHOP",
+    "FINAL STORE"
+  ],
+  "version_paths": [
+    "data/processed/sroie_multiversion/images/X51005361897_v0.jpg",
+    "data/processed/sroie_multiversion/images/X51005361897_v1.jpg",
+    "data/processed/sroie_multiversion/images/X51005361897_v2.jpg",
+    "data/processed/sroie_multiversion/images/X51005361897_v3.jpg"
+  ],
+  "box": [
+    313,
+    44,
+    1044,
+    102
+  ]
+}

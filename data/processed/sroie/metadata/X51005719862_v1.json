@@ -1,0 +1,33 @@
+{
+  "dataset": "sroie",
+  "doc_id": "X51005719862",
+  "original_image": "data/processed/sroie/original/X51005719862.jpg",
+  "revised_image": "data/processed/sroie/revised/X51005719862_v1.jpg",
+  "field_name": "company",
+  "change_type": "insertion",
+  "old_value": "99 SPEED MART S/B",
+  "new_value": "UPDATED MART",
+  "box": [
+    167,
+    333,
+    659,
+    376
+  ],
+  "qa_pairs": [
+    {
+      "qa_id": "X51005719862_company_insertion_0",
+      "question": "What company value was added?",
+      "answer": "UPDATED MART"
+    },
+    {
+      "qa_id": "X51005719862_company_insertion_1",
+      "question": "What type of revision occurred?",
+      "answer": "insertion"
+    },
+    {
+      "qa_id": "X51005719862_company_insertion_2",
+      "question": "Was a new company inserted?",
+      "answer": "Yes"
+    }
+  ]
+}

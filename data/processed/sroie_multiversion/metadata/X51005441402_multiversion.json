@@ -1,0 +1,23 @@
+{
+  "dataset": "sroie",
+  "doc_id": "X51005441402",
+  "field_name": "company",
+  "value_history": [
+    "THREE STOOGES",
+    "UPDATED MART",
+    "REVISED SHOP",
+    "FINAL STORE"
+  ],
+  "version_paths": [
+    "data/processed/sroie_multiversion/images/X51005441402_v0.jpg",
+    "data/processed/sroie_multiversion/images/X51005441402_v1.jpg",
+    "data/processed/sroie_multiversion/images/X51005441402_v2.jpg",
+    "data/processed/sroie_multiversion/images/X51005441402_v3.jpg"
+  ],
+  "box": [
+    64,
+    172,
+    370,
+    197
+  ]
+}

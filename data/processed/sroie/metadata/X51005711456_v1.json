@@ -1,0 +1,33 @@
+{
+  "dataset": "sroie",
+  "doc_id": "X51005711456",
+  "original_image": "data/processed/sroie/original/X51005711456.jpg",
+  "revised_image": "data/processed/sroie/revised/X51005711456_v1.jpg",
+  "field_name": "company",
+  "change_type": "deletion",
+  "old_value": "MIZU MENTAI SDN. BHD.",
+  "new_value": "",
+  "box": [
+    110,
+    311,
+    713,
+    352
+  ],
+  "qa_pairs": [
+    {
+      "qa_id": "X51005711456_company_deletion_0",
+      "question": "What company value was removed?",
+      "answer": "MIZU MENTAI SDN. BHD."
+    },
+    {
+      "qa_id": "X51005711456_company_deletion_1",
+      "question": "What type of revision occurred?",
+      "answer": "deletion"
+    },
+    {
+      "qa_id": "X51005711456_company_deletion_2",
+      "question": "Was the company deleted?",
+      "answer": "Yes"
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "doc_id": "0060302201",
+  "original_image": "data/processed/funsd/original/0060302201.png",
+  "revised_image": "data/processed/funsd/revised/0060302201_v1.png",
+  "change_type": "replacement",
+  "field_name": "question",
+  "old_value": "SCIENTIFIC",
+  "new_value": "UPDATED",
+  "box": [
+    51,
+    487,
+    131,
+    501
+  ],
+  "qa_pairs": [
+    {
+      "qa_id": "0060302201_replacement_0",
+      "question": "What value was changed in the document?",
+      "answer": "The value changed from SCIENTIFIC to UPDATED."
+    },
+    {
+      "qa_id": "0060302201_replacement_1",
+      "question": "What was the original value before the revision?",
+      "answer": "SCIENTIFIC"
+    },
+    {
+      "qa_id": "0060302201_replacement_2",
+      "question": "What is the revised value after the change?",
+      "answer": "UPDATED"
+    },
+    {
+      "qa_id": "0060302201_replacement_3",
+      "question": "How did the value change?",
+      "answer": "SCIENTIFIC was replaced with UPDATED."
+    },
+    {
+      "qa_id": "0060302201_replacement_4",
+      "question": "What type of revision occurred?",
+      "answer": "replacement"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "dataset": "sroie",
+  "doc_id": "X51005453804",
+  "field_name": "company",
+  "value_history": [
+    "LIAN HING STATIONERY SDN BHD",
+    "UPDATED MART",
+    "REVISED SHOP",
+    "FINAL STORE"
+  ],
+  "version_paths": [
+    "data/processed/sroie_multiversion/images/X51005453804_v0.jpg",
+    "data/processed/sroie_multiversion/images/X51005453804_v1.jpg",
+    "data/processed/sroie_multiversion/images/X51005453804_v2.jpg",
+    "data/processed/sroie_multiversion/images/X51005453804_v3.jpg"
+  ],
+  "box": [
+    147,
+    132,
+    471,
+    154
+  ]
+}

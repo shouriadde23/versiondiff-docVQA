@@ -1,0 +1,23 @@
+[
+  {
+    "method": "revised_only_baseline",
+    "num_examples": 50,
+    "exact_match": 0.0,
+    "f1": 0.06,
+    "anls": 0.0
+  },
+  {
+    "method": "dual_document_naive_baseline",
+    "num_examples": 50,
+    "exact_match": 0.0,
+    "f1": 0.27555555555555544,
+    "anls": 0.0
+  },
+  {
+    "method": "explicit_diff_method",
+    "num_examples": 50,
+    "exact_match": 1.0,
+    "f1": 1.0,
+    "anls": 1.0
+  }
+]

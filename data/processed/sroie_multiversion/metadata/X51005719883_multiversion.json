@@ -1,0 +1,23 @@
+{
+  "dataset": "sroie",
+  "doc_id": "X51005719883",
+  "field_name": "company",
+  "value_history": [
+    "99 SPEED MART S/B",
+    "UPDATED MART",
+    "REVISED SHOP",
+    "FINAL STORE"
+  ],
+  "version_paths": [
+    "data/processed/sroie_multiversion/images/X51005719883_v0.jpg",
+    "data/processed/sroie_multiversion/images/X51005719883_v1.jpg",
+    "data/processed/sroie_multiversion/images/X51005719883_v2.jpg",
+    "data/processed/sroie_multiversion/images/X51005719883_v3.jpg"
+  ],
+  "box": [
+    169,
+    339,
+    661,
+    388
+  ]
+}

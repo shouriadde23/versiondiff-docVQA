@@ -1,0 +1,33 @@
+{
+  "dataset": "sroie",
+  "doc_id": "X51005365179",
+  "original_image": "data/processed/sroie/original/X51005365179.jpg",
+  "revised_image": "data/processed/sroie/revised/X51005365179_v1.jpg",
+  "field_name": "company",
+  "change_type": "deletion",
+  "old_value": "C W KHOO HARDWARE SDN BHD",
+  "new_value": "",
+  "box": [
+    113,
+    203,
+    660,
+    229
+  ],
+  "qa_pairs": [
+    {
+      "qa_id": "X51005365179_company_deletion_0",
+      "question": "What company value was removed?",
+      "answer": "C W KHOO HARDWARE SDN BHD"
+    },
+    {
+      "qa_id": "X51005365179_company_deletion_1",
+      "question": "What type of revision occurred?",
+      "answer": "deletion"
+    },
+    {
+      "qa_id": "X51005365179_company_deletion_2",
+      "question": "Was the company deleted?",
+      "answer": "Yes"
+    }
+  ]
+}

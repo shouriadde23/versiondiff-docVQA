@@ -1,0 +1,23 @@
+{
+  "dataset": "sroie",
+  "doc_id": "X51005447848",
+  "field_name": "company",
+  "value_history": [
+    "LIAN CHI PU TIAN VEGETARIAN RESTAURANT SDN BHD",
+    "UPDATED MART",
+    "REVISED SHOP",
+    "FINAL STORE"
+  ],
+  "version_paths": [
+    "data/processed/sroie_multiversion/images/X51005447848_v0.jpg",
+    "data/processed/sroie_multiversion/images/X51005447848_v1.jpg",
+    "data/processed/sroie_multiversion/images/X51005447848_v2.jpg",
+    "data/processed/sroie_multiversion/images/X51005447848_v3.jpg"
+  ],
+  "box": [
+    156,
+    181,
+    789,
+    222
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "doc_id": "0001129658",
+  "original_image": "data/processed/funsd/original/0001129658.png",
+  "revised_image": "data/processed/funsd/revised/0001129658_v1.png",
+  "change_type": "replacement",
+  "field_name": "other",
+  "old_value": "The",
+  "new_value": "NEWVALUE",
+  "box": [
+    99,
+    821,
+    116,
+    835
+  ],
+  "qa_pairs": [
+    {
+      "qa_id": "0001129658_replacement_0",
+      "question": "What value was changed in the document?",
+      "answer": "The value changed from The to NEWVALUE."
+    },
+    {
+      "qa_id": "0001129658_replacement_1",
+      "question": "What was the original value before the revision?",
+      "answer": "The"
+    },
+    {
+      "qa_id": "0001129658_replacement_2",
+      "question": "What is the revised value after the change?",
+      "answer": "NEWVALUE"
+    },
+    {
+      "qa_id": "0001129658_replacement_3",
+      "question": "How did the value change?",
+      "answer": "The was replaced with NEWVALUE."
+    },
+    {
+      "qa_id": "0001129658_replacement_4",
+      "question": "What type of revision occurred?",
+      "answer": "replacement"
+    }
+  ]
+}

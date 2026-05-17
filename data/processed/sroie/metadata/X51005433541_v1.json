@@ -1,0 +1,33 @@
+{
+  "dataset": "sroie",
+  "doc_id": "X51005433541",
+  "original_image": "data/processed/sroie/original/X51005433541.jpg",
+  "revised_image": "data/processed/sroie/revised/X51005433541_v1.jpg",
+  "field_name": "company",
+  "change_type": "insertion",
+  "old_value": "UNIHAKKA INTERNATIONAL SDN BHD",
+  "new_value": "REVISED SHOP",
+  "box": [
+    348,
+    339,
+    638,
+    354
+  ],
+  "qa_pairs": [
+    {
+      "qa_id": "X51005433541_company_insertion_0",
+      "question": "What company value was added?",
+      "answer": "REVISED SHOP"
+    },
+    {
+      "qa_id": "X51005433541_company_insertion_1",
+      "question": "What type of revision occurred?",
+      "answer": "insertion"
+    },
+    {
+      "qa_id": "X51005433541_company_insertion_2",
+      "question": "Was a new company inserted?",
+      "answer": "Yes"
+    }
+  ]
+}

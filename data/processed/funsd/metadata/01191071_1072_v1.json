@@ -1,0 +1,32 @@
+{
+  "doc_id": "01191071_1072",
+  "original_image": "data/processed/funsd/original/01191071_1072.png",
+  "revised_image": "data/processed/funsd/revised/01191071_1072_v1.png",
+  "change_type": "insertion",
+  "field_name": "question",
+  "old_value": "PAGE",
+  "new_value": "NEW",
+  "box": [
+    548,
+    126,
+    580,
+    138
+  ],
+  "qa_pairs": [
+    {
+      "qa_id": "01191071_1072_insertion_0",
+      "question": "What value was added to the document?",
+      "answer": "NEW"
+    },
+    {
+      "qa_id": "01191071_1072_insertion_1",
+      "question": "What type of revision occurred?",
+      "answer": "insertion"
+    },
+    {
+      "qa_id": "01191071_1072_insertion_2",
+      "question": "Was any new value inserted?",
+      "answer": "Yes"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "dataset": "sroie",
+  "doc_id": "X00016469676",
+  "field_name": "total",
+  "value_history": [
+    "20.00",
+    "22.00",
+    "25.00",
+    "30.00"
+  ],
+  "version_paths": [
+    "data/processed/sroie_multiversion/images/X00016469676_v0.jpg",
+    "data/processed/sroie_multiversion/images/X00016469676_v1.jpg",
+    "data/processed/sroie_multiversion/images/X00016469676_v2.jpg",
+    "data/processed/sroie_multiversion/images/X00016469676_v3.jpg"
+  ],
+  "box": [
+    307,
+    343,
+    353,
+    367
+  ]
+}

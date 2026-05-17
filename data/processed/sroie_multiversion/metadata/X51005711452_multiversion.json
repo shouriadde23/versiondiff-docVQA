@@ -1,0 +1,23 @@
+{
+  "dataset": "sroie",
+  "doc_id": "X51005711452",
+  "field_name": "company",
+  "value_history": [
+    "GERBANG ALAF RESTAURANTS SDN BHD",
+    "UPDATED MART",
+    "REVISED SHOP",
+    "FINAL STORE"
+  ],
+  "version_paths": [
+    "data/processed/sroie_multiversion/images/X51005711452_v0.jpg",
+    "data/processed/sroie_multiversion/images/X51005711452_v1.jpg",
+    "data/processed/sroie_multiversion/images/X51005711452_v2.jpg",
+    "data/processed/sroie_multiversion/images/X51005711452_v3.jpg"
+  ],
+  "box": [
+    96,
+    336,
+    682,
+    380
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "dataset": "sroie",
+  "doc_id": "X51005303661",
+  "field_name": "address",
+  "value_history": [
+    "NO: 28,JALAN ASTANA 1C, BANDAR BUKIT RAJA, 41050 KLANG SELANGOR D.E, MALAYSIA",
+    "123 UPDATED STREET",
+    "456 REVISED ROAD",
+    "789 FINAL AVE"
+  ],
+  "version_paths": [
+    "data/processed/sroie_multiversion/images/X51005303661_v0.jpg",
+    "data/processed/sroie_multiversion/images/X51005303661_v1.jpg",
+    "data/processed/sroie_multiversion/images/X51005303661_v2.jpg",
+    "data/processed/sroie_multiversion/images/X51005303661_v3.jpg"
+  ],
+  "box": [
+    236,
+    130,
+    610,
+    179
+  ]
+}

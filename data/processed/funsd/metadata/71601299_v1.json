@@ -1,0 +1,42 @@
+{
+  "doc_id": "71601299",
+  "original_image": "data/processed/funsd/original/71601299.png",
+  "revised_image": "data/processed/funsd/revised/71601299_v1.png",
+  "change_type": "replacement",
+  "field_name": "answer",
+  "old_value": "fundamental",
+  "new_value": "REVISED",
+  "box": [
+    264,
+    791,
+    328,
+    805
+  ],
+  "qa_pairs": [
+    {
+      "qa_id": "71601299_replacement_0",
+      "question": "What value was changed in the document?",
+      "answer": "The value changed from fundamental to REVISED."
+    },
+    {
+      "qa_id": "71601299_replacement_1",
+      "question": "What was the original value before the revision?",
+      "answer": "fundamental"
+    },
+    {
+      "qa_id": "71601299_replacement_2",
+      "question": "What is the revised value after the change?",
+      "answer": "REVISED"
+    },
+    {
+      "qa_id": "71601299_replacement_3",
+      "question": "How did the value change?",
+      "answer": "fundamental was replaced with REVISED."
+    },
+    {
+      "qa_id": "71601299_replacement_4",
+      "question": "What type of revision occurred?",
+      "answer": "replacement"
+    }
+  ]
+}

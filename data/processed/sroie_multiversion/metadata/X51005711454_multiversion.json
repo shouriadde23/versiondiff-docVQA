@@ -1,0 +1,23 @@
+{
+  "dataset": "sroie",
+  "doc_id": "X51005711454",
+  "field_name": "company",
+  "value_history": [
+    "PAPPARICH BMC",
+    "UPDATED MART",
+    "REVISED SHOP",
+    "FINAL STORE"
+  ],
+  "version_paths": [
+    "data/processed/sroie_multiversion/images/X51005711454_v0.jpg",
+    "data/processed/sroie_multiversion/images/X51005711454_v1.jpg",
+    "data/processed/sroie_multiversion/images/X51005711454_v2.jpg",
+    "data/processed/sroie_multiversion/images/X51005711454_v3.jpg"
+  ],
+  "box": [
+    188,
+    139,
+    730,
+    196
+  ]
+}

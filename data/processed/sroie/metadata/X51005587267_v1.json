@@ -1,0 +1,38 @@
+{
+  "dataset": "sroie",
+  "doc_id": "X51005587267",
+  "original_image": "data/processed/sroie/original/X51005587267.jpg",
+  "revised_image": "data/processed/sroie/revised/X51005587267_v1.jpg",
+  "field_name": "total",
+  "change_type": "replacement",
+  "old_value": "85.10",
+  "new_value": "95.10",
+  "box": [
+    612,
+    1249,
+    700,
+    1288
+  ],
+  "qa_pairs": [
+    {
+      "qa_id": "X51005587267_total_replacement_0",
+      "question": "What was the total changed to?",
+      "answer": "95.10"
+    },
+    {
+      "qa_id": "X51005587267_total_replacement_1",
+      "question": "What was the original total before the revision?",
+      "answer": "85.10"
+    },
+    {
+      "qa_id": "X51005587267_total_replacement_2",
+      "question": "How did the total change?",
+      "answer": "The total changed from 85.10 to 95.10."
+    },
+    {
+      "qa_id": "X51005587267_total_replacement_3",
+      "question": "What type of revision occurred?",
+      "answer": "replacement"
+    }
+  ]
+}

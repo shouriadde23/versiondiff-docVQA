@@ -1,0 +1,23 @@
+{
+  "dataset": "sroie",
+  "doc_id": "X51005719896",
+  "field_name": "company",
+  "value_history": [
+    "THE STORE (MALAYSIA) SDN BHD",
+    "UPDATED MART",
+    "REVISED SHOP",
+    "FINAL STORE"
+  ],
+  "version_paths": [
+    "data/processed/sroie_multiversion/images/X51005719896_v0.jpg",
+    "data/processed/sroie_multiversion/images/X51005719896_v1.jpg",
+    "data/processed/sroie_multiversion/images/X51005719896_v2.jpg",
+    "data/processed/sroie_multiversion/images/X51005719896_v3.jpg"
+  ],
+  "box": [
+    73,
+    406,
+    723,
+    452
+  ]
+}

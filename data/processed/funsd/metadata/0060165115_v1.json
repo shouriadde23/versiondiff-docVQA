@@ -1,0 +1,32 @@
+{
+  "doc_id": "0060165115",
+  "original_image": "data/processed/funsd/original/0060165115.png",
+  "revised_image": "data/processed/funsd/revised/0060165115_v1.png",
+  "change_type": "deletion",
+  "field_name": "other",
+  "old_value": "Telefax-",
+  "new_value": "",
+  "box": [
+    514,
+    401,
+    609,
+    428
+  ],
+  "qa_pairs": [
+    {
+      "qa_id": "0060165115_deletion_0",
+      "question": "What value was removed from the document?",
+      "answer": "Telefax-"
+    },
+    {
+      "qa_id": "0060165115_deletion_1",
+      "question": "What type of revision occurred?",
+      "answer": "deletion"
+    },
+    {
+      "qa_id": "0060165115_deletion_2",
+      "question": "Was any value deleted?",
+      "answer": "Yes"
+    }
+  ]
+}

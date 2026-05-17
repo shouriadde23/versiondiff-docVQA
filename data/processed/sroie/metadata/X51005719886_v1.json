@@ -1,0 +1,33 @@
+{
+  "dataset": "sroie",
+  "doc_id": "X51005719886",
+  "original_image": "data/processed/sroie/original/X51005719886.jpg",
+  "revised_image": "data/processed/sroie/revised/X51005719886_v1.jpg",
+  "field_name": "company",
+  "change_type": "deletion",
+  "old_value": "SUNFISH",
+  "new_value": "",
+  "box": [
+    310,
+    198,
+    591,
+    237
+  ],
+  "qa_pairs": [
+    {
+      "qa_id": "X51005719886_company_deletion_0",
+      "question": "What company value was removed?",
+      "answer": "SUNFISH"
+    },
+    {
+      "qa_id": "X51005719886_company_deletion_1",
+      "question": "What type of revision occurred?",
+      "answer": "deletion"
+    },
+    {
+      "qa_id": "X51005719886_company_deletion_2",
+      "question": "Was the company deleted?",
+      "answer": "Yes"
+    }
+  ]
+}

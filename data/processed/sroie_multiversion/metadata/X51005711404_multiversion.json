@@ -1,0 +1,23 @@
+{
+  "dataset": "sroie",
+  "doc_id": "X51005711404",
+  "field_name": "address",
+  "value_history": [
+    "NO.2, JALAN TEMENGGUNG 19/9, SEKSYEN 9, BANDAR MAHKOTA CHERAS, 43200 CHERAS, SELANGOR",
+    "123 UPDATED STREET",
+    "456 REVISED ROAD",
+    "789 FINAL AVE"
+  ],
+  "version_paths": [
+    "data/processed/sroie_multiversion/images/X51005711404_v0.jpg",
+    "data/processed/sroie_multiversion/images/X51005711404_v1.jpg",
+    "data/processed/sroie_multiversion/images/X51005711404_v2.jpg",
+    "data/processed/sroie_multiversion/images/X51005711404_v3.jpg"
+  ],
+  "box": [
+    147,
+    350,
+    644,
+    392
+  ]
+}

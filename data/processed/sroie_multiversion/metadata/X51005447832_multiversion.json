@@ -1,0 +1,23 @@
+{
+  "dataset": "sroie",
+  "doc_id": "X51005447832",
+  "field_name": "address",
+  "value_history": [
+    "LOT 485, TMN LEMBAH KERAMAT JLN ULU KELANG,  54200 KUALA LUMPUR",
+    "123 UPDATED STREET",
+    "456 REVISED ROAD",
+    "789 FINAL AVE"
+  ],
+  "version_paths": [
+    "data/processed/sroie_multiversion/images/X51005447832_v0.jpg",
+    "data/processed/sroie_multiversion/images/X51005447832_v1.jpg",
+    "data/processed/sroie_multiversion/images/X51005447832_v2.jpg",
+    "data/processed/sroie_multiversion/images/X51005447832_v3.jpg"
+  ],
+  "box": [
+    46,
+    321,
+    543,
+    358
+  ]
+}

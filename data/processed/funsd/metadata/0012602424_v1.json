@@ -1,0 +1,42 @@
+{
+  "doc_id": "0012602424",
+  "original_image": "data/processed/funsd/original/0012602424.png",
+  "revised_image": "data/processed/funsd/revised/0012602424_v1.png",
+  "change_type": "replacement",
+  "field_name": "question",
+  "old_value": "MELLMAN",
+  "new_value": "REVISED",
+  "box": [
+    281,
+    839,
+    338,
+    856
+  ],
+  "qa_pairs": [
+    {
+      "qa_id": "0012602424_replacement_0",
+      "question": "What value was changed in the document?",
+      "answer": "The value changed from MELLMAN to REVISED."
+    },
+    {
+      "qa_id": "0012602424_replacement_1",
+      "question": "What was the original value before the revision?",
+      "answer": "MELLMAN"
+    },
+    {
+      "qa_id": "0012602424_replacement_2",
+      "question": "What is the revised value after the change?",
+      "answer": "REVISED"
+    },
+    {
+      "qa_id": "0012602424_replacement_3",
+      "question": "How did the value change?",
+      "answer": "MELLMAN was replaced with REVISED."
+    },
+    {
+      "qa_id": "0012602424_replacement_4",
+      "question": "What type of revision occurred?",
+      "answer": "replacement"
+    }
+  ]
+}

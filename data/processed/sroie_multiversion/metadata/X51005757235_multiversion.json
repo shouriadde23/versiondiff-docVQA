@@ -1,0 +1,23 @@
+{
+  "dataset": "sroie",
+  "doc_id": "X51005757235",
+  "field_name": "company",
+  "value_history": [
+    "AEON CO. (M) BHD",
+    "UPDATED MART",
+    "REVISED SHOP",
+    "FINAL STORE"
+  ],
+  "version_paths": [
+    "data/processed/sroie_multiversion/images/X51005757235_v0.jpg",
+    "data/processed/sroie_multiversion/images/X51005757235_v1.jpg",
+    "data/processed/sroie_multiversion/images/X51005757235_v2.jpg",
+    "data/processed/sroie_multiversion/images/X51005757235_v3.jpg"
+  ],
+  "box": [
+    187,
+    114,
+    573,
+    150
+  ]
+}

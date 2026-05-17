@@ -1,0 +1,23 @@
+{
+  "dataset": "sroie",
+  "doc_id": "X51005433553",
+  "field_name": "address",
+  "value_history": [
+    "S117, SECOND FLOOR, AEON TEBRAU CITY, 1, JALAN DESA TEBRAU, TAMAN DESA TEBRAU, 81100 JOHOR BAHRU, JOHOR.",
+    "123 UPDATED STREET",
+    "456 REVISED ROAD",
+    "789 FINAL AVE"
+  ],
+  "version_paths": [
+    "data/processed/sroie_multiversion/images/X51005433553_v0.jpg",
+    "data/processed/sroie_multiversion/images/X51005433553_v1.jpg",
+    "data/processed/sroie_multiversion/images/X51005433553_v2.jpg",
+    "data/processed/sroie_multiversion/images/X51005433553_v3.jpg"
+  ],
+  "box": [
+    428,
+    271,
+    576,
+    289
+  ]
+}

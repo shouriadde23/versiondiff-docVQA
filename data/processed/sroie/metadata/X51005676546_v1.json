@@ -1,0 +1,33 @@
+{
+  "dataset": "sroie",
+  "doc_id": "X51005676546",
+  "original_image": "data/processed/sroie/original/X51005676546.jpg",
+  "revised_image": "data/processed/sroie/revised/X51005676546_v1.jpg",
+  "field_name": "company",
+  "change_type": "deletion",
+  "old_value": "SYARIKAT PERNIAGAAN GIN KEE",
+  "new_value": "",
+  "box": [
+    91,
+    210,
+    838,
+    259
+  ],
+  "qa_pairs": [
+    {
+      "qa_id": "X51005676546_company_deletion_0",
+      "question": "What company value was removed?",
+      "answer": "SYARIKAT PERNIAGAAN GIN KEE"
+    },
+    {
+      "qa_id": "X51005676546_company_deletion_1",
+      "question": "What type of revision occurred?",
+      "answer": "deletion"
+    },
+    {
+      "qa_id": "X51005676546_company_deletion_2",
+      "question": "Was the company deleted?",
+      "answer": "Yes"
+    }
+  ]
+}

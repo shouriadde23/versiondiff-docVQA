@@ -1,0 +1,38 @@
+{
+  "dataset": "sroie",
+  "doc_id": "X51005742068",
+  "original_image": "data/processed/sroie/original/X51005742068.jpg",
+  "revised_image": "data/processed/sroie/revised/X51005742068_v1.jpg",
+  "field_name": "company",
+  "change_type": "replacement",
+  "old_value": "BHPETROL PALEKBANG",
+  "new_value": "NEW STORE",
+  "box": [
+    258,
+    118,
+    570,
+    160
+  ],
+  "qa_pairs": [
+    {
+      "qa_id": "X51005742068_company_replacement_0",
+      "question": "What was the company changed to?",
+      "answer": "NEW STORE"
+    },
+    {
+      "qa_id": "X51005742068_company_replacement_1",
+      "question": "What was the original company before the revision?",
+      "answer": "BHPETROL PALEKBANG"
+    },
+    {
+      "qa_id": "X51005742068_company_replacement_2",
+      "question": "How did the company change?",
+      "answer": "The company changed from BHPETROL PALEKBANG to NEW STORE."
+    },
+    {
+      "qa_id": "X51005742068_company_replacement_3",
+      "question": "What type of revision occurred?",
+      "answer": "replacement"
+    }
+  ]
+}

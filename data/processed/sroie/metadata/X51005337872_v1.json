@@ -1,0 +1,33 @@
+{
+  "dataset": "sroie",
+  "doc_id": "X51005337872",
+  "original_image": "data/processed/sroie/original/X51005337872.jpg",
+  "revised_image": "data/processed/sroie/revised/X51005337872_v1.jpg",
+  "field_name": "company",
+  "change_type": "deletion",
+  "old_value": "SYL ROASTED DELIGHTS SDN. BHD.",
+  "new_value": "",
+  "box": [
+    63,
+    340,
+    553,
+    369
+  ],
+  "qa_pairs": [
+    {
+      "qa_id": "X51005337872_company_deletion_0",
+      "question": "What company value was removed?",
+      "answer": "SYL ROASTED DELIGHTS SDN. BHD."
+    },
+    {
+      "qa_id": "X51005337872_company_deletion_1",
+      "question": "What type of revision occurred?",
+      "answer": "deletion"
+    },
+    {
+      "qa_id": "X51005337872_company_deletion_2",
+      "question": "Was the company deleted?",
+      "answer": "Yes"
+    }
+  ]
+}

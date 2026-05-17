@@ -1,0 +1,33 @@
+{
+  "dataset": "sroie",
+  "doc_id": "X51005719912",
+  "original_image": "data/processed/sroie/original/X51005719912.jpg",
+  "revised_image": "data/processed/sroie/revised/X51005719912_v1.jpg",
+  "field_name": "address",
+  "change_type": "insertion",
+  "old_value": "GUARDIAN GIANT BREM MALL G-19 LEVEL G BREM MALL",
+  "new_value": "789 REVISED AVE",
+  "box": [
+    51,
+    462,
+    489,
+    505
+  ],
+  "qa_pairs": [
+    {
+      "qa_id": "X51005719912_address_insertion_0",
+      "question": "What address value was added?",
+      "answer": "789 REVISED AVE"
+    },
+    {
+      "qa_id": "X51005719912_address_insertion_1",
+      "question": "What type of revision occurred?",
+      "answer": "insertion"
+    },
+    {
+      "qa_id": "X51005719912_address_insertion_2",
+      "question": "Was a new address inserted?",
+      "answer": "Yes"
+    }
+  ]
+}

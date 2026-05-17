@@ -1,0 +1,23 @@
+{
+  "dataset": "sroie",
+  "doc_id": "X51005711442",
+  "field_name": "company",
+  "value_history": [
+    "RESTORAN WAN SHENG",
+    "UPDATED MART",
+    "REVISED SHOP",
+    "FINAL STORE"
+  ],
+  "version_paths": [
+    "data/processed/sroie_multiversion/images/X51005711442_v0.jpg",
+    "data/processed/sroie_multiversion/images/X51005711442_v1.jpg",
+    "data/processed/sroie_multiversion/images/X51005711442_v2.jpg",
+    "data/processed/sroie_multiversion/images/X51005711442_v3.jpg"
+  ],
+  "box": [
+    222,
+    270,
+    560,
+    306
+  ]
+}

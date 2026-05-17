@@ -1,0 +1,74 @@
+[
+  {
+    "method": "annotation_diff_method",
+    "change_type": "deletion",
+    "num_examples": 102,
+    "exact_match": 1.0,
+    "f1": 1.0,
+    "anls": 1.0
+  },
+  {
+    "method": "annotation_diff_method",
+    "change_type": "insertion",
+    "num_examples": 99,
+    "exact_match": 1.0,
+    "f1": 1.0,
+    "anls": 1.0
+  },
+  {
+    "method": "annotation_diff_method",
+    "change_type": "replacement",
+    "num_examples": 165,
+    "exact_match": 1.0,
+    "f1": 1.0,
+    "anls": 1.0
+  },
+  {
+    "method": "dual_document_naive_baseline",
+    "change_type": "deletion",
+    "num_examples": 102,
+    "exact_match": 0.0,
+    "f1": 0.004979769685652038,
+    "anls": 0.0
+  },
+  {
+    "method": "dual_document_naive_baseline",
+    "change_type": "insertion",
+    "num_examples": 99,
+    "exact_match": 0.0,
+    "f1": 0.0,
+    "anls": 0.0
+  },
+  {
+    "method": "dual_document_naive_baseline",
+    "change_type": "replacement",
+    "num_examples": 165,
+    "exact_match": 0.0,
+    "f1": 0.11175491175491178,
+    "anls": 0.0
+  },
+  {
+    "method": "revised_only_baseline",
+    "change_type": "deletion",
+    "num_examples": 102,
+    "exact_match": 0.0,
+    "f1": 0.0,
+    "anls": 0.0
+  },
+  {
+    "method": "revised_only_baseline",
+    "change_type": "insertion",
+    "num_examples": 99,
+    "exact_match": 0.3333333333333333,
+    "f1": 0.3333333333333333,
+    "anls": 0.3333333333333333
+  },
+  {
+    "method": "revised_only_baseline",
+    "change_type": "replacement",
+    "num_examples": 165,
+    "exact_match": 0.2,
+    "f1": 0.20909090909090908,
+    "anls": 0.2
+  }
+]

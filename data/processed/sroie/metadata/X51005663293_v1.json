@@ -1,0 +1,33 @@
+{
+  "dataset": "sroie",
+  "doc_id": "X51005663293",
+  "original_image": "data/processed/sroie/original/X51005663293.jpg",
+  "revised_image": "data/processed/sroie/revised/X51005663293_v1.jpg",
+  "field_name": "address",
+  "change_type": "insertion",
+  "old_value": "NO 21, JLN BUNGA KANTAN TAMAN P. RAMLEE SETAPAK 53000 KUALA LUMPUR",
+  "new_value": "789 REVISED AVE",
+  "box": [
+    220,
+    383,
+    534,
+    418
+  ],
+  "qa_pairs": [
+    {
+      "qa_id": "X51005663293_address_insertion_0",
+      "question": "What address value was added?",
+      "answer": "789 REVISED AVE"
+    },
+    {
+      "qa_id": "X51005663293_address_insertion_1",
+      "question": "What type of revision occurred?",
+      "answer": "insertion"
+    },
+    {
+      "qa_id": "X51005663293_address_insertion_2",
+      "question": "Was a new address inserted?",
+      "answer": "Yes"
+    }
+  ]
+}

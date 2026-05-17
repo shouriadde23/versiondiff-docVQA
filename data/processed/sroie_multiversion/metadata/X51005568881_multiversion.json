@@ -1,0 +1,23 @@
+{
+  "dataset": "sroie",
+  "doc_id": "X51005568881",
+  "field_name": "address",
+  "value_history": [
+    "NO 37, JALAN MANIS 7, TAMAN SEGAR, 56100 CHERAS, KUALA LUMPUR.",
+    "123 UPDATED STREET",
+    "456 REVISED ROAD",
+    "789 FINAL AVE"
+  ],
+  "version_paths": [
+    "data/processed/sroie_multiversion/images/X51005568881_v0.jpg",
+    "data/processed/sroie_multiversion/images/X51005568881_v1.jpg",
+    "data/processed/sroie_multiversion/images/X51005568881_v2.jpg",
+    "data/processed/sroie_multiversion/images/X51005568881_v3.jpg"
+  ],
+  "box": [
+    52,
+    373,
+    763,
+    407
+  ]
+}

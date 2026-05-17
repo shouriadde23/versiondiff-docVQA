@@ -1,0 +1,42 @@
+{
+  "doc_id": "00040534",
+  "original_image": "data/processed/funsd/original/00040534.png",
+  "revised_image": "data/processed/funsd/revised/00040534_v1.png",
+  "change_type": "replacement",
+  "field_name": "other",
+  "old_value": "FORM",
+  "new_value": "NEWVALUE",
+  "box": [
+    676,
+    946,
+    698,
+    957
+  ],
+  "qa_pairs": [
+    {
+      "qa_id": "00040534_replacement_0",
+      "question": "What value was changed in the document?",
+      "answer": "The value changed from FORM to NEWVALUE."
+    },
+    {
+      "qa_id": "00040534_replacement_1",
+      "question": "What was the original value before the revision?",
+      "answer": "FORM"
+    },
+    {
+      "qa_id": "00040534_replacement_2",
+      "question": "What is the revised value after the change?",
+      "answer": "NEWVALUE"
+    },
+    {
+      "qa_id": "00040534_replacement_3",
+      "question": "How did the value change?",
+      "answer": "FORM was replaced with NEWVALUE."
+    },
+    {
+      "qa_id": "00040534_replacement_4",
+      "question": "What type of revision occurred?",
+      "answer": "replacement"
+    }
+  ]
+}

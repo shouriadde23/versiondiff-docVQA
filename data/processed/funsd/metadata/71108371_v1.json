@@ -1,0 +1,32 @@
+{
+  "doc_id": "71108371",
+  "original_image": "data/processed/funsd/original/71108371.png",
+  "revised_image": "data/processed/funsd/revised/71108371_v1.png",
+  "change_type": "insertion",
+  "field_name": "question",
+  "old_value": "5.",
+  "new_value": "REVIEWED",
+  "box": [
+    131,
+    235,
+    142,
+    246
+  ],
+  "qa_pairs": [
+    {
+      "qa_id": "71108371_insertion_0",
+      "question": "What value was added to the document?",
+      "answer": "REVIEWED"
+    },
+    {
+      "qa_id": "71108371_insertion_1",
+      "question": "What type of revision occurred?",
+      "answer": "insertion"
+    },
+    {
+      "qa_id": "71108371_insertion_2",
+      "question": "Was any new value inserted?",
+      "answer": "Yes"
+    }
+  ]
+}

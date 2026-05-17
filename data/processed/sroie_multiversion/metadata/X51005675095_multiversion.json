@@ -1,0 +1,23 @@
+{
+  "dataset": "sroie",
+  "doc_id": "X51005675095",
+  "field_name": "address",
+  "value_history": [
+    "LEVEL G2, BLOCK D1, SOLARIS DUTAMAS, NO.1, JALAN DUTAMAS 1, 50480 KUALA LUMPUR",
+    "123 UPDATED STREET",
+    "456 REVISED ROAD",
+    "789 FINAL AVE"
+  ],
+  "version_paths": [
+    "data/processed/sroie_multiversion/images/X51005675095_v0.jpg",
+    "data/processed/sroie_multiversion/images/X51005675095_v1.jpg",
+    "data/processed/sroie_multiversion/images/X51005675095_v2.jpg",
+    "data/processed/sroie_multiversion/images/X51005675095_v3.jpg"
+  ],
+  "box": [
+    352,
+    212,
+    559,
+    260
+  ]
+}

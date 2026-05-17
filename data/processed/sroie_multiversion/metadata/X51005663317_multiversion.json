@@ -1,0 +1,23 @@
+{
+  "dataset": "sroie",
+  "doc_id": "X51005663317",
+  "field_name": "address",
+  "value_history": [
+    "NO 7, SIMPANG OFF BATU VILLAGE, JALAN IPOH BATU 5, 51200 KUALA LUMPUR MALAYSIA",
+    "123 UPDATED STREET",
+    "456 REVISED ROAD",
+    "789 FINAL AVE"
+  ],
+  "version_paths": [
+    "data/processed/sroie_multiversion/images/X51005663317_v0.jpg",
+    "data/processed/sroie_multiversion/images/X51005663317_v1.jpg",
+    "data/processed/sroie_multiversion/images/X51005663317_v2.jpg",
+    "data/processed/sroie_multiversion/images/X51005663317_v3.jpg"
+  ],
+  "box": [
+    315,
+    356,
+    492,
+    395
+  ]
+}

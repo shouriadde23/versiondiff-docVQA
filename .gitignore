@@ -1,0 +1,55 @@
+# Python/cache
+__pycache__/
+*.pyc
+.cache/
+.ipynb_checkpoints/
+
+# Environments
+venv/
+env/
+.env/
+*_env/
+*.egg-info/
+
+# Secrets
+api.key
+*.key
+.env
+
+# Large model/checkpoint files
+checkpoints/
+model_cache/
+*.pt
+*.pth
+*.bin
+*.safetensors
+*.h5
+*.ckpt
+
+# Large raw data / images
+data/raw/
+raw/
+images/
+*.png
+*.jpg
+*.jpeg
+*.tif
+*.tiff
+*.bmp
+
+# Large generated/cache files
+*.arrow
+*.hdf5
+*.npy
+*.npz
+*.zip
+*.tar
+*.tar.gz
+
+# Keep job logs
+*.log
+!*.out
+!*.err
+
+# Mac
+.DS_Store

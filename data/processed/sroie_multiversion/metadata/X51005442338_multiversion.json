@@ -1,0 +1,23 @@
+{
+  "dataset": "sroie",
+  "doc_id": "X51005442338",
+  "field_name": "company",
+  "value_history": [
+    "PASAR MINI JIN SENG",
+    "UPDATED MART",
+    "REVISED SHOP",
+    "FINAL STORE"
+  ],
+  "version_paths": [
+    "data/processed/sroie_multiversion/images/X51005442338_v0.jpg",
+    "data/processed/sroie_multiversion/images/X51005442338_v1.jpg",
+    "data/processed/sroie_multiversion/images/X51005442338_v2.jpg",
+    "data/processed/sroie_multiversion/images/X51005442338_v3.jpg"
+  ],
+  "box": [
+    442,
+    277,
+    593,
+    294
+  ]
+}

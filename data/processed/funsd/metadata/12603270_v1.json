@@ -1,0 +1,32 @@
+{
+  "doc_id": "12603270",
+  "original_image": "data/processed/funsd/original/12603270.png",
+  "revised_image": "data/processed/funsd/revised/12603270_v1.png",
+  "change_type": "insertion",
+  "field_name": "other",
+  "old_value": "Commitments",
+  "new_value": "UPDATED",
+  "box": [
+    161,
+    183,
+    237,
+    195
+  ],
+  "qa_pairs": [
+    {
+      "qa_id": "12603270_insertion_0",
+      "question": "What value was added to the document?",
+      "answer": "UPDATED"
+    },
+    {
+      "qa_id": "12603270_insertion_1",
+      "question": "What type of revision occurred?",
+      "answer": "insertion"
+    },
+    {
+      "qa_id": "12603270_insertion_2",
+      "question": "Was any new value inserted?",
+      "answer": "Yes"
+    }
+  ]
+}

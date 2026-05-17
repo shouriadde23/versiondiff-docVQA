@@ -1,0 +1,38 @@
+{
+  "dataset": "sroie",
+  "doc_id": "X51005444037",
+  "original_image": "data/processed/sroie/original/X51005444037.jpg",
+  "revised_image": "data/processed/sroie/revised/X51005444037_v1.jpg",
+  "field_name": "address",
+  "change_type": "replacement",
+  "old_value": "UNIT G-13, GROUND FLOOR, NO.1 JLN KIARA, MONT KIARA 50480 KUALA LUMPUR",
+  "new_value": "789 REVISED AVE",
+  "box": [
+    129,
+    630,
+    615,
+    667
+  ],
+  "qa_pairs": [
+    {
+      "qa_id": "X51005444037_address_replacement_0",
+      "question": "What was the address changed to?",
+      "answer": "789 REVISED AVE"
+    },
+    {
+      "qa_id": "X51005444037_address_replacement_1",
+      "question": "What was the original address before the revision?",
+      "answer": "UNIT G-13, GROUND FLOOR, NO.1 JLN KIARA, MONT KIARA 50480 KUALA LUMPUR"
+    },
+    {
+      "qa_id": "X51005444037_address_replacement_2",
+      "question": "How did the address change?",
+      "answer": "The address changed from UNIT G-13, GROUND FLOOR, NO.1 JLN KIARA, MONT KIARA 50480 KUALA LUMPUR to 789 REVISED AVE."
+    },
+    {
+      "qa_id": "X51005444037_address_replacement_3",
+      "question": "What type of revision occurred?",
+      "answer": "replacement"
+    }
+  ]
+}

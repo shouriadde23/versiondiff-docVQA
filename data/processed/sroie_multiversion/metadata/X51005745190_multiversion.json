@@ -1,0 +1,23 @@
+{
+  "dataset": "sroie",
+  "doc_id": "X51005745190",
+  "field_name": "address",
+  "value_history": [
+    "NO. 1 JALAN EURO 1 OFF JALAN BATU TIGA SUNGAI BULOH SEKSYEN U3 SHAH ALAM, 40150",
+    "123 UPDATED STREET",
+    "456 REVISED ROAD",
+    "789 FINAL AVE"
+  ],
+  "version_paths": [
+    "data/processed/sroie_multiversion/images/X51005745190_v0.jpg",
+    "data/processed/sroie_multiversion/images/X51005745190_v1.jpg",
+    "data/processed/sroie_multiversion/images/X51005745190_v2.jpg",
+    "data/processed/sroie_multiversion/images/X51005745190_v3.jpg"
+  ],
+  "box": [
+    30,
+    242,
+    286,
+    270
+  ]
+}

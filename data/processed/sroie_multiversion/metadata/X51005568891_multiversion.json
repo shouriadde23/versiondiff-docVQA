@@ -1,0 +1,23 @@
+{
+  "dataset": "sroie",
+  "doc_id": "X51005568891",
+  "field_name": "company",
+  "value_history": [
+    "HON HWA HARDWARE TRADING",
+    "UPDATED MART",
+    "REVISED SHOP",
+    "FINAL STORE"
+  ],
+  "version_paths": [
+    "data/processed/sroie_multiversion/images/X51005568891_v0.jpg",
+    "data/processed/sroie_multiversion/images/X51005568891_v1.jpg",
+    "data/processed/sroie_multiversion/images/X51005568891_v2.jpg",
+    "data/processed/sroie_multiversion/images/X51005568891_v3.jpg"
+  ],
+  "box": [
+    52,
+    269,
+    787,
+    312
+  ]
+}

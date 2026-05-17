@@ -1,0 +1,74 @@
+[
+  {
+    "method": "annotation_diff_method",
+    "change_type": "deletion",
+    "num_examples": 144,
+    "exact_match": 1.0,
+    "f1": 1.0,
+    "anls": 1.0
+  },
+  {
+    "method": "annotation_diff_method",
+    "change_type": "insertion",
+    "num_examples": 216,
+    "exact_match": 1.0,
+    "f1": 1.0,
+    "anls": 1.0
+  },
+  {
+    "method": "annotation_diff_method",
+    "change_type": "replacement",
+    "num_examples": 312,
+    "exact_match": 1.0,
+    "f1": 1.0,
+    "anls": 1.0
+  },
+  {
+    "method": "dual_document_naive_baseline",
+    "change_type": "deletion",
+    "num_examples": 144,
+    "exact_match": 0.0,
+    "f1": 0.10758511845207352,
+    "anls": 0.052070566358830075
+  },
+  {
+    "method": "dual_document_naive_baseline",
+    "change_type": "insertion",
+    "num_examples": 216,
+    "exact_match": 0.0,
+    "f1": 0.04133931911709689,
+    "anls": 0.0
+  },
+  {
+    "method": "dual_document_naive_baseline",
+    "change_type": "replacement",
+    "num_examples": 312,
+    "exact_match": 0.0,
+    "f1": 0.19991509592019982,
+    "anls": 0.09237087137443858
+  },
+  {
+    "method": "revised_only_baseline",
+    "change_type": "deletion",
+    "num_examples": 144,
+    "exact_match": 0.0,
+    "f1": 0.0,
+    "anls": 0.0
+  },
+  {
+    "method": "revised_only_baseline",
+    "change_type": "insertion",
+    "num_examples": 216,
+    "exact_match": 0.3333333333333333,
+    "f1": 0.3333333333333333,
+    "anls": 0.3333333333333333
+  },
+  {
+    "method": "revised_only_baseline",
+    "change_type": "replacement",
+    "num_examples": 312,
+    "exact_match": 0.25,
+    "f1": 0.2716904812423501,
+    "anls": 0.25
+  }
+]

@@ -1,0 +1,39 @@
+Experiment 3: Multi-Version SROIE Reasoning
+====================================================================================================
+
+Overall Results
+----------------------------------------------------------------------------------------------------
+Method               |      N |      EM |      F1 |    ANLS
+----------------------------------------------------------------------------------------------------
+four_versions        |   1576 |  1.0000 |  1.0000 |  1.0000
+three_versions       |   1576 |  0.5000 |  0.7086 |  0.7619
+two_versions         |   1576 |  0.2500 |  0.5325 |  0.5641
+
+Breakdown by Question Type
+----------------------------------------------------------------------------------------------------
+Method               | Question Type                  |      N |      EM |      F1 |    ANLS
+----------------------------------------------------------------------------------------------------
+four_versions        | before_final_value             |    197 |  1.0000 |  1.0000 |  1.0000
+four_versions        | final_value                    |    197 |  1.0000 |  1.0000 |  1.0000
+four_versions        | first_change_description       |    197 |  1.0000 |  1.0000 |  1.0000
+four_versions        | first_revision_value           |    197 |  1.0000 |  1.0000 |  1.0000
+four_versions        | full_history                   |    197 |  1.0000 |  1.0000 |  1.0000
+four_versions        | last_change_description        |    197 |  1.0000 |  1.0000 |  1.0000
+four_versions        | modification_count             |    197 |  1.0000 |  1.0000 |  1.0000
+four_versions        | original_value                 |    197 |  1.0000 |  1.0000 |  1.0000
+three_versions       | before_final_value             |    197 |  0.0000 |  0.0000 |  0.4405
+three_versions       | final_value                    |    197 |  1.0000 |  1.0000 |  1.0000
+three_versions       | first_change_description       |    197 |  1.0000 |  1.0000 |  1.0000
+three_versions       | first_revision_value           |    197 |  1.0000 |  1.0000 |  1.0000
+three_versions       | full_history                   |    197 |  0.0000 |  0.8573 |  0.7595
+three_versions       | last_change_description        |    197 |  0.0000 |  0.8115 |  0.8955
+three_versions       | modification_count             |    197 |  0.0000 |  0.0000 |  0.0000
+three_versions       | original_value                 |    197 |  1.0000 |  1.0000 |  1.0000
+two_versions         | before_final_value             |    197 |  0.0000 |  0.0000 |  0.2424
+two_versions         | final_value                    |    197 |  1.0000 |  1.0000 |  1.0000
+two_versions         | first_change_description       |    197 |  0.0000 |  0.8454 |  0.9142
+two_versions         | first_revision_value           |    197 |  0.0000 |  0.0000 |  0.4098
+two_versions         | full_history                   |    197 |  0.0000 |  0.6643 |  0.2520
+two_versions         | last_change_description        |    197 |  0.0000 |  0.7507 |  0.6947
+two_versions         | modification_count             |    197 |  0.0000 |  0.0000 |  0.0000
+two_versions         | original_value                 |    197 |  1.0000 |  1.0000 |  1.0000

@@ -1,0 +1,23 @@
+{
+  "dataset": "sroie",
+  "doc_id": "X51005605335",
+  "field_name": "address",
+  "value_history": [
+    "NO 8, JALAN 7/118B, DESA TUN RAZAK 56000 KUALA LUMPUR, MALAYSIA",
+    "123 UPDATED STREET",
+    "456 REVISED ROAD",
+    "789 FINAL AVE"
+  ],
+  "version_paths": [
+    "data/processed/sroie_multiversion/images/X51005605335_v0.jpg",
+    "data/processed/sroie_multiversion/images/X51005605335_v1.jpg",
+    "data/processed/sroie_multiversion/images/X51005605335_v2.jpg",
+    "data/processed/sroie_multiversion/images/X51005605335_v3.jpg"
+  ],
+  "box": [
+    47,
+    327,
+    645,
+    352
+  ]
+}

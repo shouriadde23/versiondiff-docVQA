@@ -1,0 +1,33 @@
+{
+  "dataset": "sroie",
+  "doc_id": "X51005724554",
+  "original_image": "data/processed/sroie/original/X51005724554.jpg",
+  "revised_image": "data/processed/sroie/revised/X51005724554_v1.jpg",
+  "field_name": "company",
+  "change_type": "deletion",
+  "old_value": "KEDAI PAPAN YEW CHUAN",
+  "new_value": "",
+  "box": [
+    165,
+    278,
+    756,
+    316
+  ],
+  "qa_pairs": [
+    {
+      "qa_id": "X51005724554_company_deletion_0",
+      "question": "What company value was removed?",
+      "answer": "KEDAI PAPAN YEW CHUAN"
+    },
+    {
+      "qa_id": "X51005724554_company_deletion_1",
+      "question": "What type of revision occurred?",
+      "answer": "deletion"
+    },
+    {
+      "qa_id": "X51005724554_company_deletion_2",
+      "question": "Was the company deleted?",
+      "answer": "Yes"
+    }
+  ]
+}

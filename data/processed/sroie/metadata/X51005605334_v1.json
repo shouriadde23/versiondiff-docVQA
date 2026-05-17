@@ -1,0 +1,38 @@
+{
+  "dataset": "sroie",
+  "doc_id": "X51005605334",
+  "original_image": "data/processed/sroie/original/X51005605334.jpg",
+  "revised_image": "data/processed/sroie/revised/X51005605334_v1.jpg",
+  "field_name": "company",
+  "change_type": "replacement",
+  "old_value": "POPULAR BOOK CO. (M) SDN BHD",
+  "new_value": "NEW STORE",
+  "box": [
+    142,
+    130,
+    563,
+    180
+  ],
+  "qa_pairs": [
+    {
+      "qa_id": "X51005605334_company_replacement_0",
+      "question": "What was the company changed to?",
+      "answer": "NEW STORE"
+    },
+    {
+      "qa_id": "X51005605334_company_replacement_1",
+      "question": "What was the original company before the revision?",
+      "answer": "POPULAR BOOK CO. (M) SDN BHD"
+    },
+    {
+      "qa_id": "X51005605334_company_replacement_2",
+      "question": "How did the company change?",
+      "answer": "The company changed from POPULAR BOOK CO. (M) SDN BHD to NEW STORE."
+    },
+    {
+      "qa_id": "X51005605334_company_replacement_3",
+      "question": "What type of revision occurred?",
+      "answer": "replacement"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "dataset": "sroie",
+  "doc_id": "X51005711453",
+  "field_name": "address",
+  "value_history": [
+    "LEVEL 6, BANGUNAN TH, DAMANSARA UPTOWN3 NO.3, JALAN SS21/39, 47400 PETALING JAYA SELANGOR",
+    "123 UPDATED STREET",
+    "456 REVISED ROAD",
+    "789 FINAL AVE"
+  ],
+  "version_paths": [
+    "data/processed/sroie_multiversion/images/X51005711453_v0.jpg",
+    "data/processed/sroie_multiversion/images/X51005711453_v1.jpg",
+    "data/processed/sroie_multiversion/images/X51005711453_v2.jpg",
+    "data/processed/sroie_multiversion/images/X51005711453_v3.jpg"
+  ],
+  "box": [
+    24,
+    560,
+    727,
+    602
+  ]
+}

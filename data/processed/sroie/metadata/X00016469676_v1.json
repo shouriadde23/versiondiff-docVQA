@@ -1,0 +1,38 @@
+{
+  "dataset": "sroie",
+  "doc_id": "X00016469676",
+  "original_image": "data/processed/sroie/original/X00016469676.jpg",
+  "revised_image": "data/processed/sroie/revised/X00016469676_v1.jpg",
+  "field_name": "company",
+  "change_type": "replacement",
+  "old_value": "S.H.H. MOTOR (SUNGAI RENGIT) SDN. BHD.",
+  "new_value": "NEW STORE",
+  "box": [
+    53,
+    88,
+    415,
+    127
+  ],
+  "qa_pairs": [
+    {
+      "qa_id": "X00016469676_company_replacement_0",
+      "question": "What was the company changed to?",
+      "answer": "NEW STORE"
+    },
+    {
+      "qa_id": "X00016469676_company_replacement_1",
+      "question": "What was the original company before the revision?",
+      "answer": "S.H.H. MOTOR (SUNGAI RENGIT) SDN. BHD."
+    },
+    {
+      "qa_id": "X00016469676_company_replacement_2",
+      "question": "How did the company change?",
+      "answer": "The company changed from S.H.H. MOTOR (SUNGAI RENGIT) SDN. BHD. to NEW STORE."
+    },
+    {
+      "qa_id": "X00016469676_company_replacement_3",
+      "question": "What type of revision occurred?",
+      "answer": "replacement"
+    }
+  ]
+}

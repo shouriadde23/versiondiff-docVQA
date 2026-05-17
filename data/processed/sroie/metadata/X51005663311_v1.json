@@ -1,0 +1,38 @@
+{
+  "dataset": "sroie",
+  "doc_id": "X51005663311",
+  "original_image": "data/processed/sroie/original/X51005663311.jpg",
+  "revised_image": "data/processed/sroie/revised/X51005663311_v1.jpg",
+  "field_name": "address",
+  "change_type": "replacement",
+  "old_value": "NO 7, SIMPANG OFF BATU VILLAGE, JALAN IPOH BATU 5, 51200 KUALA LUMPUR MALAYSIA",
+  "new_value": "789 REVISED AVE",
+  "box": [
+    331,
+    357,
+    503,
+    396
+  ],
+  "qa_pairs": [
+    {
+      "qa_id": "X51005663311_address_replacement_0",
+      "question": "What was the address changed to?",
+      "answer": "789 REVISED AVE"
+    },
+    {
+      "qa_id": "X51005663311_address_replacement_1",
+      "question": "What was the original address before the revision?",
+      "answer": "NO 7, SIMPANG OFF BATU VILLAGE, JALAN IPOH BATU 5, 51200 KUALA LUMPUR MALAYSIA"
+    },
+    {
+      "qa_id": "X51005663311_address_replacement_2",
+      "question": "How did the address change?",
+      "answer": "The address changed from NO 7, SIMPANG OFF BATU VILLAGE, JALAN IPOH BATU 5, 51200 KUALA LUMPUR MALAYSIA to 789 REVISED AVE."
+    },
+    {
+      "qa_id": "X51005663311_address_replacement_3",
+      "question": "What type of revision occurred?",
+      "answer": "replacement"
+    }
+  ]
+}

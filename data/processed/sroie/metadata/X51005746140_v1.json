@@ -1,0 +1,38 @@
+{
+  "dataset": "sroie",
+  "doc_id": "X51005746140",
+  "original_image": "data/processed/sroie/original/X51005746140.jpg",
+  "revised_image": "data/processed/sroie/revised/X51005746140_v1.jpg",
+  "field_name": "address",
+  "change_type": "replacement",
+  "old_value": "9, JALAN SUBANG JASA 3, 40150 SHAN ALAM, SELANGOR.",
+  "new_value": "123 UPDATED STREET",
+  "box": [
+    36,
+    245,
+    412,
+    280
+  ],
+  "qa_pairs": [
+    {
+      "qa_id": "X51005746140_address_replacement_0",
+      "question": "What was the address changed to?",
+      "answer": "123 UPDATED STREET"
+    },
+    {
+      "qa_id": "X51005746140_address_replacement_1",
+      "question": "What was the original address before the revision?",
+      "answer": "9, JALAN SUBANG JASA 3, 40150 SHAN ALAM, SELANGOR."
+    },
+    {
+      "qa_id": "X51005746140_address_replacement_2",
+      "question": "How did the address change?",
+      "answer": "The address changed from 9, JALAN SUBANG JASA 3, 40150 SHAN ALAM, SELANGOR. to 123 UPDATED STREET."
+    },
+    {
+      "qa_id": "X51005746140_address_replacement_3",
+      "question": "What type of revision occurred?",
+      "answer": "replacement"
+    }
+  ]
+}

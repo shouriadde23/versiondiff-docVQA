@@ -1,0 +1,32 @@
+{
+  "doc_id": "0013255595",
+  "original_image": "data/processed/funsd/original/0013255595.png",
+  "revised_image": "data/processed/funsd/revised/0013255595_v1.png",
+  "change_type": "deletion",
+  "field_name": "header",
+  "old_value": "Legal",
+  "new_value": "",
+  "box": [
+    88,
+    425,
+    133,
+    442
+  ],
+  "qa_pairs": [
+    {
+      "qa_id": "0013255595_deletion_0",
+      "question": "What value was removed from the document?",
+      "answer": "Legal"
+    },
+    {
+      "qa_id": "0013255595_deletion_1",
+      "question": "What type of revision occurred?",
+      "answer": "deletion"
+    },
+    {
+      "qa_id": "0013255595_deletion_2",
+      "question": "Was any value deleted?",
+      "answer": "Yes"
+    }
+  ]
+}

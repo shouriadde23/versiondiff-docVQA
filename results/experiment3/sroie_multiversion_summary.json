@@ -1,0 +1,219 @@
+{
+  "overall": [
+    {
+      "method": "four_versions",
+      "num_examples": 1576,
+      "exact_match": 1.0,
+      "f1": 1.0,
+      "anls": 1.0
+    },
+    {
+      "method": "three_versions",
+      "num_examples": 1576,
+      "exact_match": 0.5,
+      "f1": 0.7085936300335715,
+      "anls": 0.76193694302605
+    },
+    {
+      "method": "two_versions",
+      "num_examples": 1576,
+      "exact_match": 0.25,
+      "f1": 0.5325478658135714,
+      "anls": 0.5641419208588565
+    }
+  ],
+  "by_question_type": [
+    {
+      "method": "four_versions",
+      "question_type": "before_final_value",
+      "num_examples": 197,
+      "exact_match": 1.0,
+      "f1": 1.0,
+      "anls": 1.0
+    },
+    {
+      "method": "four_versions",
+      "question_type": "final_value",
+      "num_examples": 197,
+      "exact_match": 1.0,
+      "f1": 1.0,
+      "anls": 1.0
+    },
+    {
+      "method": "four_versions",
+      "question_type": "first_change_description",
+      "num_examples": 197,
+      "exact_match": 1.0,
+      "f1": 1.0,
+      "anls": 1.0
+    },
+    {
+      "method": "four_versions",
+      "question_type": "first_revision_value",
+      "num_examples": 197,
+      "exact_match": 1.0,
+      "f1": 1.0,
+      "anls": 1.0
+    },
+    {
+      "method": "four_versions",
+      "question_type": "full_history",
+      "num_examples": 197,
+      "exact_match": 1.0,
+      "f1": 1.0,
+      "anls": 1.0
+    },
+    {
+      "method": "four_versions",
+      "question_type": "last_change_description",
+      "num_examples": 197,
+      "exact_match": 1.0,
+      "f1": 1.0,
+      "anls": 1.0
+    },
+    {
+      "method": "four_versions",
+      "question_type": "modification_count",
+      "num_examples": 197,
+      "exact_match": 1.0,
+      "f1": 1.0,
+      "anls": 1.0
+    },
+    {
+      "method": "four_versions",
+      "question_type": "original_value",
+      "num_examples": 197,
+      "exact_match": 1.0,
+      "f1": 1.0,
+      "anls": 1.0
+    },
+    {
+      "method": "three_versions",
+      "question_type": "before_final_value",
+      "num_examples": 197,
+      "exact_match": 0.0,
+      "f1": 0.0,
+      "anls": 0.4405245346869705
+    },
+    {
+      "method": "three_versions",
+      "question_type": "final_value",
+      "num_examples": 197,
+      "exact_match": 1.0,
+      "f1": 1.0,
+      "anls": 1.0
+    },
+    {
+      "method": "three_versions",
+      "question_type": "first_change_description",
+      "num_examples": 197,
+      "exact_match": 1.0,
+      "f1": 1.0,
+      "anls": 1.0
+    },
+    {
+      "method": "three_versions",
+      "question_type": "first_revision_value",
+      "num_examples": 197,
+      "exact_match": 1.0,
+      "f1": 1.0,
+      "anls": 1.0
+    },
+    {
+      "method": "three_versions",
+      "question_type": "full_history",
+      "num_examples": 197,
+      "exact_match": 0.0,
+      "f1": 0.8572768125526692,
+      "anls": 0.759500776800973
+    },
+    {
+      "method": "three_versions",
+      "question_type": "last_change_description",
+      "num_examples": 197,
+      "exact_match": 0.0,
+      "f1": 0.8114722277158829,
+      "anls": 0.8954702327204473
+    },
+    {
+      "method": "three_versions",
+      "question_type": "modification_count",
+      "num_examples": 197,
+      "exact_match": 0.0,
+      "f1": 0.0,
+      "anls": 0.0
+    },
+    {
+      "method": "three_versions",
+      "question_type": "original_value",
+      "num_examples": 197,
+      "exact_match": 1.0,
+      "f1": 1.0,
+      "anls": 1.0
+    },
+    {
+      "method": "two_versions",
+      "question_type": "before_final_value",
+      "num_examples": 197,
+      "exact_match": 0.0,
+      "f1": 0.0,
+      "anls": 0.24238578680203046
+    },
+    {
+      "method": "two_versions",
+      "question_type": "final_value",
+      "num_examples": 197,
+      "exact_match": 1.0,
+      "f1": 1.0,
+      "anls": 1.0
+    },
+    {
+      "method": "two_versions",
+      "question_type": "first_change_description",
+      "num_examples": 197,
+      "exact_match": 0.0,
+      "f1": 0.8453831233106383,
+      "anls": 0.9142250513159139
+    },
+    {
+      "method": "two_versions",
+      "question_type": "first_revision_value",
+      "num_examples": 197,
+      "exact_match": 0.0,
+      "f1": 0.0,
+      "anls": 0.40981387478849357
+    },
+    {
+      "method": "two_versions",
+      "question_type": "full_history",
+      "num_examples": 197,
+      "exact_match": 0.0,
+      "f1": 0.6643071898264462,
+      "anls": 0.2519805497994429
+    },
+    {
+      "method": "two_versions",
+      "question_type": "last_change_description",
+      "num_examples": 197,
+      "exact_match": 0.0,
+      "f1": 0.7506926133714668,
+      "anls": 0.6947301041649715
+    },
+    {
+      "method": "two_versions",
+      "question_type": "modification_count",
+      "num_examples": 197,
+      "exact_match": 0.0,
+      "f1": 0.0,
+      "anls": 0.0
+    },
+    {
+      "method": "two_versions",
+      "question_type": "original_value",
+      "num_examples": 197,
+      "exact_match": 1.0,
+      "f1": 1.0,
+      "anls": 1.0
+    }
+  ]
+}

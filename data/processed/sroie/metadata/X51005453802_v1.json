@@ -1,0 +1,38 @@
+{
+  "dataset": "sroie",
+  "doc_id": "X51005453802",
+  "original_image": "data/processed/sroie/original/X51005453802.jpg",
+  "revised_image": "data/processed/sroie/revised/X51005453802_v1.jpg",
+  "field_name": "address",
+  "change_type": "replacement",
+  "old_value": "NO.32 & 33, JALAN SR 1/9, SEKSYEN 9, TAMAN SERDANG RAYA, 43300 SERI KEMBANGAN, SELANGOR DARUL EHSAN",
+  "new_value": "123 UPDATED STREET",
+  "box": [
+    128,
+    179,
+    494,
+    200
+  ],
+  "qa_pairs": [
+    {
+      "qa_id": "X51005453802_address_replacement_0",
+      "question": "What was the address changed to?",
+      "answer": "123 UPDATED STREET"
+    },
+    {
+      "qa_id": "X51005453802_address_replacement_1",
+      "question": "What was the original address before the revision?",
+      "answer": "NO.32 & 33, JALAN SR 1/9, SEKSYEN 9, TAMAN SERDANG RAYA, 43300 SERI KEMBANGAN, SELANGOR DARUL EHSAN"
+    },
+    {
+      "qa_id": "X51005453802_address_replacement_2",
+      "question": "How did the address change?",
+      "answer": "The address changed from NO.32 & 33, JALAN SR 1/9, SEKSYEN 9, TAMAN SERDANG RAYA, 43300 SERI KEMBANGAN, SELANGOR DARUL EHSAN to 123 UPDATED STREET."
+    },
+    {
+      "qa_id": "X51005453802_address_replacement_3",
+      "question": "What type of revision occurred?",
+      "answer": "replacement"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "dataset": "sroie",
+  "doc_id": "X51005741944",
+  "field_name": "address",
+  "value_history": [
+    "JALAN LAPANGAN TERBANG SUBANG 47200 SUBANG SELANGOR",
+    "123 UPDATED STREET",
+    "456 REVISED ROAD",
+    "789 FINAL AVE"
+  ],
+  "version_paths": [
+    "data/processed/sroie_multiversion/images/X51005741944_v0.jpg",
+    "data/processed/sroie_multiversion/images/X51005741944_v1.jpg",
+    "data/processed/sroie_multiversion/images/X51005741944_v2.jpg",
+    "data/processed/sroie_multiversion/images/X51005741944_v3.jpg"
+  ],
+  "box": [
+    140,
+    303,
+    602,
+    343
+  ]
+}

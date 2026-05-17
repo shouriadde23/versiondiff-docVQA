@@ -1,0 +1,32 @@
+{
+  "doc_id": "00093726",
+  "original_image": "data/processed/funsd/original/00093726.png",
+  "revised_image": "data/processed/funsd/revised/00093726_v1.png",
+  "change_type": "insertion",
+  "field_name": "answer",
+  "old_value": "mm",
+  "new_value": "NEW",
+  "box": [
+    441,
+    764,
+    461,
+    775
+  ],
+  "qa_pairs": [
+    {
+      "qa_id": "00093726_insertion_0",
+      "question": "What value was added to the document?",
+      "answer": "NEW"
+    },
+    {
+      "qa_id": "00093726_insertion_1",
+      "question": "What type of revision occurred?",
+      "answer": "insertion"
+    },
+    {
+      "qa_id": "00093726_insertion_2",
+      "question": "Was any new value inserted?",
+      "answer": "Yes"
+    }
+  ]
+}

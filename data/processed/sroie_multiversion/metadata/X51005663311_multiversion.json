@@ -1,0 +1,23 @@
+{
+  "dataset": "sroie",
+  "doc_id": "X51005663311",
+  "field_name": "company",
+  "value_history": [
+    "LIM SENG THO HARDWARE TRADING",
+    "UPDATED MART",
+    "REVISED SHOP",
+    "FINAL STORE"
+  ],
+  "version_paths": [
+    "data/processed/sroie_multiversion/images/X51005663311_v0.jpg",
+    "data/processed/sroie_multiversion/images/X51005663311_v1.jpg",
+    "data/processed/sroie_multiversion/images/X51005663311_v2.jpg",
+    "data/processed/sroie_multiversion/images/X51005663311_v3.jpg"
+  ],
+  "box": [
+    119,
+    214,
+    795,
+    259
+  ]
+}

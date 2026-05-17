@@ -1,0 +1,42 @@
+{
+  "doc_id": "0060029036",
+  "original_image": "data/processed/funsd/original/0060029036.png",
+  "revised_image": "data/processed/funsd/revised/0060029036_v1.png",
+  "change_type": "replacement",
+  "field_name": "answer",
+  "old_value": "1,340,000.00",
+  "new_value": "134000010",
+  "box": [
+    257,
+    249,
+    337,
+    264
+  ],
+  "qa_pairs": [
+    {
+      "qa_id": "0060029036_replacement_0",
+      "question": "What value was changed in the document?",
+      "answer": "The value changed from 1,340,000.00 to 134000010."
+    },
+    {
+      "qa_id": "0060029036_replacement_1",
+      "question": "What was the original value before the revision?",
+      "answer": "1,340,000.00"
+    },
+    {
+      "qa_id": "0060029036_replacement_2",
+      "question": "What is the revised value after the change?",
+      "answer": "134000010"
+    },
+    {
+      "qa_id": "0060029036_replacement_3",
+      "question": "How did the value change?",
+      "answer": "1,340,000.00 was replaced with 134000010."
+    },
+    {
+      "qa_id": "0060029036_replacement_4",
+      "question": "What type of revision occurred?",
+      "answer": "replacement"
+    }
+  ]
+}

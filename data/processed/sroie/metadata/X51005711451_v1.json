@@ -1,0 +1,33 @@
+{
+  "dataset": "sroie",
+  "doc_id": "X51005711451",
+  "original_image": "data/processed/sroie/original/X51005711451.jpg",
+  "revised_image": "data/processed/sroie/revised/X51005711451_v1.jpg",
+  "field_name": "date",
+  "change_type": "deletion",
+  "old_value": "05-03-2018",
+  "new_value": "",
+  "box": [
+    171,
+    691,
+    549,
+    738
+  ],
+  "qa_pairs": [
+    {
+      "qa_id": "X51005711451_date_deletion_0",
+      "question": "What date value was removed?",
+      "answer": "05-03-2018"
+    },
+    {
+      "qa_id": "X51005711451_date_deletion_1",
+      "question": "What type of revision occurred?",
+      "answer": "deletion"
+    },
+    {
+      "qa_id": "X51005711451_date_deletion_2",
+      "question": "Was the date deleted?",
+      "answer": "Yes"
+    }
+  ]
+}

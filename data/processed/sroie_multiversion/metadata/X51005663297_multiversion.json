@@ -1,0 +1,23 @@
+{
+  "dataset": "sroie",
+  "doc_id": "X51005663297",
+  "field_name": "company",
+  "value_history": [
+    "BEYOND BROTHERS HARDWARE",
+    "UPDATED MART",
+    "REVISED SHOP",
+    "FINAL STORE"
+  ],
+  "version_paths": [
+    "data/processed/sroie_multiversion/images/X51005663297_v0.jpg",
+    "data/processed/sroie_multiversion/images/X51005663297_v1.jpg",
+    "data/processed/sroie_multiversion/images/X51005663297_v2.jpg",
+    "data/processed/sroie_multiversion/images/X51005663297_v3.jpg"
+  ],
+  "box": [
+    93,
+    263,
+    833,
+    318
+  ]
+}

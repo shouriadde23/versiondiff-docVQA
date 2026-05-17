@@ -1,0 +1,33 @@
+{
+  "dataset": "sroie",
+  "doc_id": "X51005453729",
+  "original_image": "data/processed/sroie/original/X51005453729.jpg",
+  "revised_image": "data/processed/sroie/revised/X51005453729_v1.jpg",
+  "field_name": "date",
+  "change_type": "insertion",
+  "old_value": "27/03/2018",
+  "new_value": "04/27/2026",
+  "box": [
+    113,
+    337,
+    208,
+    355
+  ],
+  "qa_pairs": [
+    {
+      "qa_id": "X51005453729_date_insertion_0",
+      "question": "What date value was added?",
+      "answer": "04/27/2026"
+    },
+    {
+      "qa_id": "X51005453729_date_insertion_1",
+      "question": "What type of revision occurred?",
+      "answer": "insertion"
+    },
+    {
+      "qa_id": "X51005453729_date_insertion_2",
+      "question": "Was a new date inserted?",
+      "answer": "Yes"
+    }
+  ]
+}

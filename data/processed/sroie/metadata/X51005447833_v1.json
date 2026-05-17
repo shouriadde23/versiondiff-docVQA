@@ -1,0 +1,33 @@
+{
+  "dataset": "sroie",
+  "doc_id": "X51005447833",
+  "original_image": "data/processed/sroie/original/X51005447833.jpg",
+  "revised_image": "data/processed/sroie/revised/X51005447833_v1.jpg",
+  "field_name": "company",
+  "change_type": "deletion",
+  "old_value": "SUN WONG KUT SDN BHD",
+  "new_value": "",
+  "box": [
+    60,
+    246,
+    445,
+    281
+  ],
+  "qa_pairs": [
+    {
+      "qa_id": "X51005447833_company_deletion_0",
+      "question": "What company value was removed?",
+      "answer": "SUN WONG KUT SDN BHD"
+    },
+    {
+      "qa_id": "X51005447833_company_deletion_1",
+      "question": "What type of revision occurred?",
+      "answer": "deletion"
+    },
+    {
+      "qa_id": "X51005447833_company_deletion_2",
+      "question": "Was the company deleted?",
+      "answer": "Yes"
+    }
+  ]
+}

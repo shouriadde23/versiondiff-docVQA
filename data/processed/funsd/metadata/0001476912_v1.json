@@ -1,0 +1,32 @@
+{
+  "doc_id": "0001476912",
+  "original_image": "data/processed/funsd/original/0001476912.png",
+  "revised_image": "data/processed/funsd/revised/0001476912_v1.png",
+  "change_type": "deletion",
+  "field_name": "answer",
+  "old_value": "Chicago",
+  "new_value": "",
+  "box": [
+    111,
+    523,
+    172,
+    538
+  ],
+  "qa_pairs": [
+    {
+      "qa_id": "0001476912_deletion_0",
+      "question": "What value was removed from the document?",
+      "answer": "Chicago"
+    },
+    {
+      "qa_id": "0001476912_deletion_1",
+      "question": "What type of revision occurred?",
+      "answer": "deletion"
+    },
+    {
+      "qa_id": "0001476912_deletion_2",
+      "question": "Was any value deleted?",
+      "answer": "Yes"
+    }
+  ]
+}

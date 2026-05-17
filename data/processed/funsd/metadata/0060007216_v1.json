@@ -1,0 +1,42 @@
+{
+  "doc_id": "0060007216",
+  "original_image": "data/processed/funsd/original/0060007216.png",
+  "revised_image": "data/processed/funsd/revised/0060007216_v1.png",
+  "change_type": "replacement",
+  "field_name": "question",
+  "old_value": "PROJECT",
+  "new_value": "CHANGED",
+  "box": [
+    116,
+    309,
+    171,
+    322
+  ],
+  "qa_pairs": [
+    {
+      "qa_id": "0060007216_replacement_0",
+      "question": "What value was changed in the document?",
+      "answer": "The value changed from PROJECT to CHANGED."
+    },
+    {
+      "qa_id": "0060007216_replacement_1",
+      "question": "What was the original value before the revision?",
+      "answer": "PROJECT"
+    },
+    {
+      "qa_id": "0060007216_replacement_2",
+      "question": "What is the revised value after the change?",
+      "answer": "CHANGED"
+    },
+    {
+      "qa_id": "0060007216_replacement_3",
+      "question": "How did the value change?",
+      "answer": "PROJECT was replaced with CHANGED."
+    },
+    {
+      "qa_id": "0060007216_replacement_4",
+      "question": "What type of revision occurred?",
+      "answer": "replacement"
+    }
+  ]
+}

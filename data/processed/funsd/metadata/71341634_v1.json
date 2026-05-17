@@ -1,0 +1,32 @@
+{
+  "doc_id": "71341634",
+  "original_image": "data/processed/funsd/original/71341634.png",
+  "revised_image": "data/processed/funsd/revised/71341634_v1.png",
+  "change_type": "insertion",
+  "field_name": "question",
+  "old_value": "following",
+  "new_value": "APPROVED",
+  "box": [
+    285,
+    261,
+    327,
+    275
+  ],
+  "qa_pairs": [
+    {
+      "qa_id": "71341634_insertion_0",
+      "question": "What value was added to the document?",
+      "answer": "APPROVED"
+    },
+    {
+      "qa_id": "71341634_insertion_1",
+      "question": "What type of revision occurred?",
+      "answer": "insertion"
+    },
+    {
+      "qa_id": "71341634_insertion_2",
+      "question": "Was any new value inserted?",
+      "answer": "Yes"
+    }
+  ]
+}

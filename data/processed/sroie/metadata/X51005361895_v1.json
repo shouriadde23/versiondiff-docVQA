@@ -1,0 +1,38 @@
+{
+  "dataset": "sroie",
+  "doc_id": "X51005361895",
+  "original_image": "data/processed/sroie/original/X51005361895.jpg",
+  "revised_image": "data/processed/sroie/revised/X51005361895_v1.jpg",
+  "field_name": "company",
+  "change_type": "replacement",
+  "old_value": "FUYI MINI MARKET",
+  "new_value": "REVISED SHOP",
+  "box": [
+    254,
+    100,
+    721,
+    144
+  ],
+  "qa_pairs": [
+    {
+      "qa_id": "X51005361895_company_replacement_0",
+      "question": "What was the company changed to?",
+      "answer": "REVISED SHOP"
+    },
+    {
+      "qa_id": "X51005361895_company_replacement_1",
+      "question": "What was the original company before the revision?",
+      "answer": "FUYI MINI MARKET"
+    },
+    {
+      "qa_id": "X51005361895_company_replacement_2",
+      "question": "How did the company change?",
+      "answer": "The company changed from FUYI MINI MARKET to REVISED SHOP."
+    },
+    {
+      "qa_id": "X51005361895_company_replacement_3",
+      "question": "What type of revision occurred?",
+      "answer": "replacement"
+    }
+  ]
+}

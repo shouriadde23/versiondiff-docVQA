@@ -1,0 +1,32 @@
+{
+  "doc_id": "0011976929",
+  "original_image": "data/processed/funsd/original/0011976929.png",
+  "revised_image": "data/processed/funsd/revised/0011976929_v1.png",
+  "change_type": "insertion",
+  "field_name": "answer",
+  "old_value": "4th",
+  "new_value": "UPDATED",
+  "box": [
+    582,
+    376,
+    613,
+    393
+  ],
+  "qa_pairs": [
+    {
+      "qa_id": "0011976929_insertion_0",
+      "question": "What value was added to the document?",
+      "answer": "UPDATED"
+    },
+    {
+      "qa_id": "0011976929_insertion_1",
+      "question": "What type of revision occurred?",
+      "answer": "insertion"
+    },
+    {
+      "qa_id": "0011976929_insertion_2",
+      "question": "Was any new value inserted?",
+      "answer": "Yes"
+    }
+  ]
+}

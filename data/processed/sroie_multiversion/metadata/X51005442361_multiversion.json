@@ -1,0 +1,23 @@
+{
+  "dataset": "sroie",
+  "doc_id": "X51005442361",
+  "field_name": "address",
+  "value_history": [
+    "LOT 50, FLOOR T2,SKY AVENUE GENTING HIGHLANDS PAHANG, 69000 PAHANG MALAYSIA",
+    "123 UPDATED STREET",
+    "456 REVISED ROAD",
+    "789 FINAL AVE"
+  ],
+  "version_paths": [
+    "data/processed/sroie_multiversion/images/X51005442361_v0.jpg",
+    "data/processed/sroie_multiversion/images/X51005442361_v1.jpg",
+    "data/processed/sroie_multiversion/images/X51005442361_v2.jpg",
+    "data/processed/sroie_multiversion/images/X51005442361_v3.jpg"
+  ],
+  "box": [
+    373,
+    442,
+    718,
+    464
+  ]
+}

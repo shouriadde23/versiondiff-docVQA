@@ -1,0 +1,42 @@
+{
+  "doc_id": "11508234",
+  "original_image": "data/processed/funsd/original/11508234.png",
+  "revised_image": "data/processed/funsd/revised/11508234_v1.png",
+  "change_type": "replacement",
+  "field_name": "answer",
+  "old_value": "LUCKY",
+  "new_value": "UPDATED",
+  "box": [
+    179,
+    95,
+    224,
+    108
+  ],
+  "qa_pairs": [
+    {
+      "qa_id": "11508234_replacement_0",
+      "question": "What value was changed in the document?",
+      "answer": "The value changed from LUCKY to UPDATED."
+    },
+    {
+      "qa_id": "11508234_replacement_1",
+      "question": "What was the original value before the revision?",
+      "answer": "LUCKY"
+    },
+    {
+      "qa_id": "11508234_replacement_2",
+      "question": "What is the revised value after the change?",
+      "answer": "UPDATED"
+    },
+    {
+      "qa_id": "11508234_replacement_3",
+      "question": "How did the value change?",
+      "answer": "LUCKY was replaced with UPDATED."
+    },
+    {
+      "qa_id": "11508234_replacement_4",
+      "question": "What type of revision occurred?",
+      "answer": "replacement"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "dataset": "sroie",
+  "doc_id": "X51005361883",
+  "original_image": "data/processed/sroie/original/X51005361883.jpg",
+  "revised_image": "data/processed/sroie/revised/X51005361883_v1.jpg",
+  "field_name": "company",
+  "change_type": "replacement",
+  "old_value": "TEO HENG STATIONERY & BOOKS",
+  "new_value": "UPDATED MART",
+  "box": [
+    127,
+    195,
+    857,
+    253
+  ],
+  "qa_pairs": [
+    {
+      "qa_id": "X51005361883_company_replacement_0",
+      "question": "What was the company changed to?",
+      "answer": "UPDATED MART"
+    },
+    {
+      "qa_id": "X51005361883_company_replacement_1",
+      "question": "What was the original company before the revision?",
+      "answer": "TEO HENG STATIONERY & BOOKS"
+    },
+    {
+      "qa_id": "X51005361883_company_replacement_2",
+      "question": "How did the company change?",
+      "answer": "The company changed from TEO HENG STATIONERY & BOOKS to UPDATED MART."
+    },
+    {
+      "qa_id": "X51005361883_company_replacement_3",
+      "question": "What type of revision occurred?",
+      "answer": "replacement"
+    }
+  ]
+}

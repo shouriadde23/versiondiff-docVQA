@@ -1,0 +1,23 @@
+{
+  "dataset": "sroie",
+  "doc_id": "X51005433533",
+  "field_name": "company",
+  "value_history": [
+    "PERNIAGAAN ZHENG HUI",
+    "UPDATED MART",
+    "REVISED SHOP",
+    "FINAL STORE"
+  ],
+  "version_paths": [
+    "data/processed/sroie_multiversion/images/X51005433533_v0.jpg",
+    "data/processed/sroie_multiversion/images/X51005433533_v1.jpg",
+    "data/processed/sroie_multiversion/images/X51005433533_v2.jpg",
+    "data/processed/sroie_multiversion/images/X51005433533_v3.jpg"
+  ],
+  "box": [
+    417,
+    173,
+    662,
+    196
+  ]
+}

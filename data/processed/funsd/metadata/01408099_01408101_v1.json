@@ -1,0 +1,42 @@
+{
+  "doc_id": "01408099_01408101",
+  "original_image": "data/processed/funsd/original/01408099_01408101.png",
+  "revised_image": "data/processed/funsd/revised/01408099_01408101_v1.png",
+  "change_type": "replacement",
+  "field_name": "question",
+  "old_value": "DATE",
+  "new_value": "UPDATED",
+  "box": [
+    531,
+    108,
+    571,
+    124
+  ],
+  "qa_pairs": [
+    {
+      "qa_id": "01408099_01408101_replacement_0",
+      "question": "What value was changed in the document?",
+      "answer": "The value changed from DATE to UPDATED."
+    },
+    {
+      "qa_id": "01408099_01408101_replacement_1",
+      "question": "What was the original value before the revision?",
+      "answer": "DATE"
+    },
+    {
+      "qa_id": "01408099_01408101_replacement_2",
+      "question": "What is the revised value after the change?",
+      "answer": "UPDATED"
+    },
+    {
+      "qa_id": "01408099_01408101_replacement_3",
+      "question": "How did the value change?",
+      "answer": "DATE was replaced with UPDATED."
+    },
+    {
+      "qa_id": "01408099_01408101_replacement_4",
+      "question": "What type of revision occurred?",
+      "answer": "replacement"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "dataset": "sroie",
+  "doc_id": "X51005715451",
+  "field_name": "company",
+  "value_history": [
+    "POPULAR BOOK CO. (M) SDN BHD",
+    "UPDATED MART",
+    "REVISED SHOP",
+    "FINAL STORE"
+  ],
+  "version_paths": [
+    "data/processed/sroie_multiversion/images/X51005715451_v0.jpg",
+    "data/processed/sroie_multiversion/images/X51005715451_v1.jpg",
+    "data/processed/sroie_multiversion/images/X51005715451_v2.jpg",
+    "data/processed/sroie_multiversion/images/X51005715451_v3.jpg"
+  ],
+  "box": [
+    80,
+    143,
+    521,
+    182
+  ]
+}

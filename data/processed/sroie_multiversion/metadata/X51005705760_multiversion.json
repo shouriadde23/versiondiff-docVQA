@@ -1,0 +1,23 @@
+{
+  "dataset": "sroie",
+  "doc_id": "X51005705760",
+  "field_name": "address",
+  "value_history": [
+    "4-20, JALAN RIA 25/62 TAMAN SRI MUDA SEKSYEN 25, 40400 SHAH ALAM SELANGOR",
+    "123 UPDATED STREET",
+    "456 REVISED ROAD",
+    "789 FINAL AVE"
+  ],
+  "version_paths": [
+    "data/processed/sroie_multiversion/images/X51005705760_v0.jpg",
+    "data/processed/sroie_multiversion/images/X51005705760_v1.jpg",
+    "data/processed/sroie_multiversion/images/X51005705760_v2.jpg",
+    "data/processed/sroie_multiversion/images/X51005705760_v3.jpg"
+  ],
+  "box": [
+    75,
+    439,
+    689,
+    495
+  ]
+}

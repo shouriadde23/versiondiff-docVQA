@@ -1,0 +1,33 @@
+{
+  "dataset": "sroie",
+  "doc_id": "X51005677339",
+  "original_image": "data/processed/sroie/original/X51005677339.jpg",
+  "revised_image": "data/processed/sroie/revised/X51005677339_v1.jpg",
+  "field_name": "address",
+  "change_type": "insertion",
+  "old_value": "LOT 1-0-2, JLN 1/50, DIAMOND SQUARE, OFF JLN GOMBAK 53000 KUALA LUMPUR",
+  "new_value": "123 UPDATED STREET",
+  "box": [
+    303,
+    414,
+    622,
+    452
+  ],
+  "qa_pairs": [
+    {
+      "qa_id": "X51005677339_address_insertion_0",
+      "question": "What address value was added?",
+      "answer": "123 UPDATED STREET"
+    },
+    {
+      "qa_id": "X51005677339_address_insertion_1",
+      "question": "What type of revision occurred?",
+      "answer": "insertion"
+    },
+    {
+      "qa_id": "X51005677339_address_insertion_2",
+      "question": "Was a new address inserted?",
+      "answer": "Yes"
+    }
+  ]
+}

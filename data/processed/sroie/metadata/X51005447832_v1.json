@@ -1,0 +1,33 @@
+{
+  "dataset": "sroie",
+  "doc_id": "X51005447832",
+  "original_image": "data/processed/sroie/original/X51005447832.jpg",
+  "revised_image": "data/processed/sroie/revised/X51005447832_v1.jpg",
+  "field_name": "address",
+  "change_type": "insertion",
+  "old_value": "LOT 485, TMN LEMBAH KERAMAT JLN ULU KELANG,  54200 KUALA LUMPUR",
+  "new_value": "789 REVISED AVE",
+  "box": [
+    46,
+    321,
+    543,
+    358
+  ],
+  "qa_pairs": [
+    {
+      "qa_id": "X51005447832_address_insertion_0",
+      "question": "What address value was added?",
+      "answer": "789 REVISED AVE"
+    },
+    {
+      "qa_id": "X51005447832_address_insertion_1",
+      "question": "What type of revision occurred?",
+      "answer": "insertion"
+    },
+    {
+      "qa_id": "X51005447832_address_insertion_2",
+      "question": "Was a new address inserted?",
+      "answer": "Yes"
+    }
+  ]
+}

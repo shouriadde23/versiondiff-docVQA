@@ -1,0 +1,32 @@
+{
+  "doc_id": "00838511_00838525",
+  "original_image": "data/processed/funsd/original/00838511_00838525.png",
+  "revised_image": "data/processed/funsd/revised/00838511_00838525_v1.png",
+  "change_type": "insertion",
+  "field_name": "other",
+  "old_value": "CENTER",
+  "new_value": "APPROVED",
+  "box": [
+    168,
+    902,
+    200,
+    912
+  ],
+  "qa_pairs": [
+    {
+      "qa_id": "00838511_00838525_insertion_0",
+      "question": "What value was added to the document?",
+      "answer": "APPROVED"
+    },
+    {
+      "qa_id": "00838511_00838525_insertion_1",
+      "question": "What type of revision occurred?",
+      "answer": "insertion"
+    },
+    {
+      "qa_id": "00838511_00838525_insertion_2",
+      "question": "Was any new value inserted?",
+      "answer": "Yes"
+    }
+  ]
+}

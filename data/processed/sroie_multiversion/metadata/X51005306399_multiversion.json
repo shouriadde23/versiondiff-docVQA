@@ -1,0 +1,23 @@
+{
+  "dataset": "sroie",
+  "doc_id": "X51005306399",
+  "field_name": "company",
+  "value_history": [
+    "SHELL ISNI PETRO TRADING",
+    "UPDATED MART",
+    "REVISED SHOP",
+    "FINAL STORE"
+  ],
+  "version_paths": [
+    "data/processed/sroie_multiversion/images/X51005306399_v0.jpg",
+    "data/processed/sroie_multiversion/images/X51005306399_v1.jpg",
+    "data/processed/sroie_multiversion/images/X51005306399_v2.jpg",
+    "data/processed/sroie_multiversion/images/X51005306399_v3.jpg"
+  ],
+  "box": [
+    43,
+    87,
+    350,
+    111
+  ]
+}

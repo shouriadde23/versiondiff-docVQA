@@ -1,0 +1,33 @@
+{
+  "dataset": "sroie",
+  "doc_id": "X51005442384",
+  "original_image": "data/processed/sroie/original/X51005442384.jpg",
+  "revised_image": "data/processed/sroie/revised/X51005442384_v1.jpg",
+  "field_name": "company",
+  "change_type": "deletion",
+  "old_value": "UNIHAKKA INTERNATIONAL SDN BHD",
+  "new_value": "",
+  "box": [
+    369,
+    355,
+    659,
+    373
+  ],
+  "qa_pairs": [
+    {
+      "qa_id": "X51005442384_company_deletion_0",
+      "question": "What company value was removed?",
+      "answer": "UNIHAKKA INTERNATIONAL SDN BHD"
+    },
+    {
+      "qa_id": "X51005442384_company_deletion_1",
+      "question": "What type of revision occurred?",
+      "answer": "deletion"
+    },
+    {
+      "qa_id": "X51005442384_company_deletion_2",
+      "question": "Was the company deleted?",
+      "answer": "Yes"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "dataset": "sroie",
+  "doc_id": "X51005705760",
+  "original_image": "data/processed/sroie/original/X51005705760.jpg",
+  "revised_image": "data/processed/sroie/revised/X51005705760_v1.jpg",
+  "field_name": "date",
+  "change_type": "replacement",
+  "old_value": "10/08/2017",
+  "new_value": "2026-04-27",
+  "box": [
+    161,
+    819,
+    550,
+    858
+  ],
+  "qa_pairs": [
+    {
+      "qa_id": "X51005705760_date_replacement_0",
+      "question": "What was the date changed to?",
+      "answer": "2026-04-27"
+    },
+    {
+      "qa_id": "X51005705760_date_replacement_1",
+      "question": "What was the original date before the revision?",
+      "answer": "10/08/2017"
+    },
+    {
+      "qa_id": "X51005705760_date_replacement_2",
+      "question": "How did the date change?",
+      "answer": "The date changed from 10/08/2017 to 2026-04-27."
+    },
+    {
+      "qa_id": "X51005705760_date_replacement_3",
+      "question": "What type of revision occurred?",
+      "answer": "replacement"
+    }
+  ]
+}

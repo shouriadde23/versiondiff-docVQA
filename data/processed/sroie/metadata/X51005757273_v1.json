@@ -1,0 +1,33 @@
+{
+  "dataset": "sroie",
+  "doc_id": "X51005757273",
+  "original_image": "data/processed/sroie/original/X51005757273.jpg",
+  "revised_image": "data/processed/sroie/revised/X51005757273_v1.jpg",
+  "field_name": "address",
+  "change_type": "deletion",
+  "old_value": "LOT 1851-A & 1851-B, JALAN KPB 6, KAWASAN PERINDUSTRIAN BALAKONG, 43300 SERI KEMBANGAN, SELANGOR",
+  "new_value": "",
+  "box": [
+    86,
+    335,
+    614,
+    366
+  ],
+  "qa_pairs": [
+    {
+      "qa_id": "X51005757273_address_deletion_0",
+      "question": "What address value was removed?",
+      "answer": "LOT 1851-A & 1851-B, JALAN KPB 6, KAWASAN PERINDUSTRIAN BALAKONG, 43300 SERI KEMBANGAN, SELANGOR"
+    },
+    {
+      "qa_id": "X51005757273_address_deletion_1",
+      "question": "What type of revision occurred?",
+      "answer": "deletion"
+    },
+    {
+      "qa_id": "X51005757273_address_deletion_2",
+      "question": "Was the address deleted?",
+      "answer": "Yes"
+    }
+  ]
+}

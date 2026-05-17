@@ -1,0 +1,33 @@
+{
+  "dataset": "sroie",
+  "doc_id": "X51005745214",
+  "original_image": "data/processed/sroie/original/X51005745214.jpg",
+  "revised_image": "data/processed/sroie/revised/X51005745214_v1.jpg",
+  "field_name": "address",
+  "change_type": "insertion",
+  "old_value": "LOT P.T. 2811, JALAN ANGSA, TAMAN BERKELEY 41150 KLANG, SELANGOR",
+  "new_value": "789 REVISED AVE",
+  "box": [
+    131,
+    312,
+    513,
+    353
+  ],
+  "qa_pairs": [
+    {
+      "qa_id": "X51005745214_address_insertion_0",
+      "question": "What address value was added?",
+      "answer": "789 REVISED AVE"
+    },
+    {
+      "qa_id": "X51005745214_address_insertion_1",
+      "question": "What type of revision occurred?",
+      "answer": "insertion"
+    },
+    {
+      "qa_id": "X51005745214_address_insertion_2",
+      "question": "Was a new address inserted?",
+      "answer": "Yes"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "dataset": "sroie",
+  "doc_id": "X51005663278",
+  "field_name": "company",
+  "value_history": [
+    "IKANO HANDEL SDN BHD",
+    "UPDATED MART",
+    "REVISED SHOP",
+    "FINAL STORE"
+  ],
+  "version_paths": [
+    "data/processed/sroie_multiversion/images/X51005663278_v0.jpg",
+    "data/processed/sroie_multiversion/images/X51005663278_v1.jpg",
+    "data/processed/sroie_multiversion/images/X51005663278_v2.jpg",
+    "data/processed/sroie_multiversion/images/X51005663278_v3.jpg"
+  ],
+  "box": [
+    247,
+    239,
+    529,
+    271
+  ]
+}

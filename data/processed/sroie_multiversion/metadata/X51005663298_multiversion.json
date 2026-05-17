@@ -1,0 +1,23 @@
+{
+  "dataset": "sroie",
+  "doc_id": "X51005663298",
+  "field_name": "company",
+  "value_history": [
+    "ZAWIAJAYA FOOD N BEVERAGE SDN BHD",
+    "UPDATED MART",
+    "REVISED SHOP",
+    "FINAL STORE"
+  ],
+  "version_paths": [
+    "data/processed/sroie_multiversion/images/X51005663298_v0.jpg",
+    "data/processed/sroie_multiversion/images/X51005663298_v1.jpg",
+    "data/processed/sroie_multiversion/images/X51005663298_v2.jpg",
+    "data/processed/sroie_multiversion/images/X51005663298_v3.jpg"
+  ],
+  "box": [
+    146,
+    439,
+    759,
+    485
+  ]
+}

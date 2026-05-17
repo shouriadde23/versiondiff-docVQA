@@ -1,0 +1,23 @@
+{
+  "dataset": "sroie",
+  "doc_id": "X51005719899",
+  "field_name": "address",
+  "value_history": [
+    "HQ: 7, JLN SS21/34, 47400 PJ",
+    "123 UPDATED STREET",
+    "456 REVISED ROAD",
+    "789 FINAL AVE"
+  ],
+  "version_paths": [
+    "data/processed/sroie_multiversion/images/X51005719899_v0.jpg",
+    "data/processed/sroie_multiversion/images/X51005719899_v1.jpg",
+    "data/processed/sroie_multiversion/images/X51005719899_v2.jpg",
+    "data/processed/sroie_multiversion/images/X51005719899_v3.jpg"
+  ],
+  "box": [
+    177,
+    290,
+    698,
+    334
+  ]
+}

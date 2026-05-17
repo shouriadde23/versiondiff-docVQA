@@ -1,0 +1,32 @@
+{
+  "doc_id": "00920294",
+  "original_image": "data/processed/funsd/original/00920294.png",
+  "revised_image": "data/processed/funsd/revised/00920294_v1.png",
+  "change_type": "deletion",
+  "field_name": "question",
+  "old_value": "Mailfile ID:",
+  "new_value": "",
+  "box": [
+    109,
+    249,
+    173,
+    266
+  ],
+  "qa_pairs": [
+    {
+      "qa_id": "00920294_deletion_0",
+      "question": "What value was removed from the document?",
+      "answer": "Mailfile ID:"
+    },
+    {
+      "qa_id": "00920294_deletion_1",
+      "question": "What type of revision occurred?",
+      "answer": "deletion"
+    },
+    {
+      "qa_id": "00920294_deletion_2",
+      "question": "Was any value deleted?",
+      "answer": "Yes"
+    }
+  ]
+}

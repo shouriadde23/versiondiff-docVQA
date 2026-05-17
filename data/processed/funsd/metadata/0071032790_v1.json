@@ -1,0 +1,32 @@
+{
+  "doc_id": "0071032790",
+  "original_image": "data/processed/funsd/original/0071032790.png",
+  "revised_image": "data/processed/funsd/revised/0071032790_v1.png",
+  "change_type": "insertion",
+  "field_name": "question",
+  "old_value": "PROJECT",
+  "new_value": "NEW",
+  "box": [
+    56,
+    367,
+    119,
+    382
+  ],
+  "qa_pairs": [
+    {
+      "qa_id": "0071032790_insertion_0",
+      "question": "What value was added to the document?",
+      "answer": "NEW"
+    },
+    {
+      "qa_id": "0071032790_insertion_1",
+      "question": "What type of revision occurred?",
+      "answer": "insertion"
+    },
+    {
+      "qa_id": "0071032790_insertion_2",
+      "question": "Was any new value inserted?",
+      "answer": "Yes"
+    }
+  ]
+}

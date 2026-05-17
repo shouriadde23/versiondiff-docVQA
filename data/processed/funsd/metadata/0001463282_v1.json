@@ -1,0 +1,42 @@
+{
+  "doc_id": "0001463282",
+  "original_image": "data/processed/funsd/original/0001463282.png",
+  "revised_image": "data/processed/funsd/revised/0001463282_v1.png",
+  "change_type": "replacement",
+  "field_name": "other",
+  "old_value": "(Recommended",
+  "new_value": "CHANGED",
+  "box": [
+    242,
+    54,
+    329,
+    69
+  ],
+  "qa_pairs": [
+    {
+      "qa_id": "0001463282_replacement_0",
+      "question": "What value was changed in the document?",
+      "answer": "The value changed from (Recommended to CHANGED."
+    },
+    {
+      "qa_id": "0001463282_replacement_1",
+      "question": "What was the original value before the revision?",
+      "answer": "(Recommended"
+    },
+    {
+      "qa_id": "0001463282_replacement_2",
+      "question": "What is the revised value after the change?",
+      "answer": "CHANGED"
+    },
+    {
+      "qa_id": "0001463282_replacement_3",
+      "question": "How did the value change?",
+      "answer": "(Recommended was replaced with CHANGED."
+    },
+    {
+      "qa_id": "0001463282_replacement_4",
+      "question": "What type of revision occurred?",
+      "answer": "replacement"
+    }
+  ]
+}

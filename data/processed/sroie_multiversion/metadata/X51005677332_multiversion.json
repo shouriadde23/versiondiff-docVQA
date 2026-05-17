@@ -1,0 +1,23 @@
+{
+  "dataset": "sroie",
+  "doc_id": "X51005677332",
+  "field_name": "company",
+  "value_history": [
+    "SYARIKAT PERNIAGAAN GIN KEE",
+    "UPDATED MART",
+    "REVISED SHOP",
+    "FINAL STORE"
+  ],
+  "version_paths": [
+    "data/processed/sroie_multiversion/images/X51005677332_v0.jpg",
+    "data/processed/sroie_multiversion/images/X51005677332_v1.jpg",
+    "data/processed/sroie_multiversion/images/X51005677332_v2.jpg",
+    "data/processed/sroie_multiversion/images/X51005677332_v3.jpg"
+  ],
+  "box": [
+    92,
+    205,
+    843,
+    256
+  ]
+}

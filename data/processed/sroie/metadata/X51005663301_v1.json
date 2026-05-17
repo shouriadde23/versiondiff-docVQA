@@ -1,0 +1,38 @@
+{
+  "dataset": "sroie",
+  "doc_id": "X51005663301",
+  "original_image": "data/processed/sroie/original/X51005663301.jpg",
+  "revised_image": "data/processed/sroie/revised/X51005663301_v1.jpg",
+  "field_name": "company",
+  "change_type": "replacement",
+  "old_value": "LIM SENG THO HARDWARE TRADING",
+  "new_value": "UPDATED MART",
+  "box": [
+    113,
+    222,
+    795,
+    259
+  ],
+  "qa_pairs": [
+    {
+      "qa_id": "X51005663301_company_replacement_0",
+      "question": "What was the company changed to?",
+      "answer": "UPDATED MART"
+    },
+    {
+      "qa_id": "X51005663301_company_replacement_1",
+      "question": "What was the original company before the revision?",
+      "answer": "LIM SENG THO HARDWARE TRADING"
+    },
+    {
+      "qa_id": "X51005663301_company_replacement_2",
+      "question": "How did the company change?",
+      "answer": "The company changed from LIM SENG THO HARDWARE TRADING to UPDATED MART."
+    },
+    {
+      "qa_id": "X51005663301_company_replacement_3",
+      "question": "What type of revision occurred?",
+      "answer": "replacement"
+    }
+  ]
+}

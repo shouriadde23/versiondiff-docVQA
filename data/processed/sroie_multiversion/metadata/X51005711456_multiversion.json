@@ -1,0 +1,23 @@
+{
+  "dataset": "sroie",
+  "doc_id": "X51005711456",
+  "field_name": "address",
+  "value_history": [
+    "NO: 1-1&2 GROUND FLOOR, JLN TEMENGGUNG 13/9, 43200 CHERAS SELANGOR",
+    "123 UPDATED STREET",
+    "456 REVISED ROAD",
+    "789 FINAL AVE"
+  ],
+  "version_paths": [
+    "data/processed/sroie_multiversion/images/X51005711456_v0.jpg",
+    "data/processed/sroie_multiversion/images/X51005711456_v1.jpg",
+    "data/processed/sroie_multiversion/images/X51005711456_v2.jpg",
+    "data/processed/sroie_multiversion/images/X51005711456_v3.jpg"
+  ],
+  "box": [
+    182,
+    361,
+    603,
+    408
+  ]
+}

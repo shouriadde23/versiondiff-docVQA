@@ -1,0 +1,23 @@
+{
+  "dataset": "sroie",
+  "doc_id": "X51005757201",
+  "field_name": "date",
+  "value_history": [
+    "28/02/2018",
+    "04/01/2026",
+    "04/15/2026",
+    "04/27/2026"
+  ],
+  "version_paths": [
+    "data/processed/sroie_multiversion/images/X51005757201_v0.jpg",
+    "data/processed/sroie_multiversion/images/X51005757201_v1.jpg",
+    "data/processed/sroie_multiversion/images/X51005757201_v2.jpg",
+    "data/processed/sroie_multiversion/images/X51005757201_v3.jpg"
+  ],
+  "box": [
+    61,
+    2027,
+    287,
+    2063
+  ]
+}

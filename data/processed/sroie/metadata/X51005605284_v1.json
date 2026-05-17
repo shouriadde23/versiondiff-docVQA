@@ -1,0 +1,33 @@
+{
+  "dataset": "sroie",
+  "doc_id": "X51005605284",
+  "original_image": "data/processed/sroie/original/X51005605284.jpg",
+  "revised_image": "data/processed/sroie/revised/X51005605284_v1.jpg",
+  "field_name": "total",
+  "change_type": "deletion",
+  "old_value": "83.00",
+  "new_value": "",
+  "box": [
+    579,
+    904,
+    648,
+    924
+  ],
+  "qa_pairs": [
+    {
+      "qa_id": "X51005605284_total_deletion_0",
+      "question": "What total value was removed?",
+      "answer": "83.00"
+    },
+    {
+      "qa_id": "X51005605284_total_deletion_1",
+      "question": "What type of revision occurred?",
+      "answer": "deletion"
+    },
+    {
+      "qa_id": "X51005605284_total_deletion_2",
+      "question": "Was the total deleted?",
+      "answer": "Yes"
+    }
+  ]
+}
