@@ -3,16 +3,16 @@ from collections import defaultdict
 from pathlib import Path
 
 
-PROJECT_ROOT = Path.home() / "VersionDiff-DocVQA"
+project_root = Path.home() / "VersionDiff-DocVQA"
 
-RESULTS_FILE = PROJECT_ROOT / "results/experiment1/funsd_annotation_diff_results.jsonl"
-OUT_FILE = PROJECT_ROOT / "results/experiment1/funsd_annotation_diff_by_change_type.json"
+results_file = project_root / "results/experiment1/funsd_annotation_diff_results.jsonl"
+out_file = project_root / "results/experiment1/funsd_annotation_diff_by_change_type.json"
 
 
 def main():
     rows = []
 
-    with open(RESULTS_FILE, "r", encoding="utf-8") as f:
+    with open(results_file, "r", encoding="utf-8") as f:
         for line in f:
             rows.append(json.loads(line))
 
@@ -39,11 +39,11 @@ def main():
             "anls": anls
         })
 
-    with open(OUT_FILE, "w", encoding="utf-8") as f:
+    with open(out_file, "w", encoding="utf-8") as f:
         json.dump(summary, f, indent=2)
 
     print(json.dumps(summary, indent=2), flush=True)
-    print(f"\nSaved breakdown to: {OUT_FILE}", flush=True)
+    print(f"\nSaved breakdown to: {out_file}", flush=True)
 
 
 if __name__ == "__main__":
