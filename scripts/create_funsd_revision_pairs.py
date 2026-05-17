@@ -72,12 +72,12 @@ def make_replacement_value(old_value):
             num = int(float(clean))
             return str(num + random.choice([5, 10, 25, 100, 500]))
         except Exception:
-            return "UPDATED"
+            return "updated"
 
     if "/" in old_value or "-" in old_value:
         return "04/27/2026"
 
-    return random.choice(["UPDATED", "REVISED", "CHANGED", "NEWVALUE"])
+    return random.choice(["updated", "revised", "changed", "newvalue"])
 
 
 def draw_white_box(draw, box):
@@ -248,9 +248,9 @@ def main(max_docs=100):
         elif change_type == "deletion":
             new_value = ""
         elif change_type == "insertion":
-            new_value = random.choice(["APPROVED", "UPDATED", "PAID", "REVIEWED", "NEW"])
+            new_value = random.choice(["approved", "updated", "paid", "reviewed", "new"])
         else:
-            new_value = "UPDATED"
+            new_value = "updated"
 
         original_out = out_orig / f"{doc_id}.png"
         revised_out = out_rev / f"{doc_id}_v1.png"
